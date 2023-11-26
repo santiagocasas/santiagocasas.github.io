@@ -2,11 +2,11 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Santiago Casas
     - name: Date of Birth
-      value: 14th March 1879
+      value: 20th July 1987
     - name: Languages
-      value: English, German
+      value: Spanish (native), English (C2-proficiency), German (second-language), French (B1), Portuguese (A2)
 
 - title: Education
   type: time_table
