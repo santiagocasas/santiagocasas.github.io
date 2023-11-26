@@ -11,87 +11,185 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Theoretical Cosmology
+      institution: > 
+                University of Heidelberg, Heidelberg, Germany
+                Institute for Theoretical Physics (ITP), Philosophenweg 12
+      year: 2017
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - <b> Summa Cum Laude </b>, Grade 1.0 with honors
+        - title: Supervisors 
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - Prof. Valeria Pettorino
+            - Prof. Luca Amendola 
+        - title: Topics
+          contents:
+            - Non-linear structure formation in models of Dark Energy and Modified Gravity
+            - Bayesian statistics, Fisher Information Matrix, Cosmological Parameter Estimation
+            - Work for the Euclid Consortium, Theory Science Working Group
+            - Galaxy Clustering and Weak Lensing
+    - title: Master of Science in Physics
+      institution: University of Heidelberg, Heidelberg, Germany
+      year: 2013
       description:
-        - Description 1.
-        - Description 2.
+        - Grade 1.2
+        - "Master thesis topic: Fitting and forecasting models of Coupled Dark Energy based on N-body simulations"
+        - Focus area in Theoretical Physics, General Relativity and Quantum Field Theory
+        - title: Supervisors
+          contents:
+            - Prof. Luca Amendola
+            - Dr. Marco Baldi
+    - title: Bachelor of Science in Physics
+      institution: Universidad de Costa Rica, San José, Costa Rica
+      year: 2010
+      description:
+        - Bachelor research project at the section of Theoretical Physics on Geometrical Methods for Gravity
+        - Assistant at the Section for Theoretical Physics
+        - Assistant at the University Planetarium
+
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Postdoctoral Researcher
+      institution: Theoretische Teilchenphysik und Kosmologie (TTK), RWTH University, Aachen, Germany
+      year: 2021-2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Research in cosmological parameter estimation and likelihoods
+        - Fisher and MCMC forecasting for Euclid and other probes in LCDM and neutrino cosmology
+        - Modified Gravity modelling at non-linear scales
+        - Machine Learning emulators
+        - Code development for CosmicFishPie, MontePython, CLASS and the Euclid CLOE likelihood
+        - title: Teaching Assistant
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - General Relativity
+            - Ingredients of the Universe (Advanced Cosmology)
+            - Theoretical Mechanics, Bachelor level (in German)
+            - Electromagnetism, Bachelor level (in German)
+        - title: Master Student supervision
+          contents:
+            - "Sabarish V.M., 2021-2022, topic: Validation of MontePython Euclid likelihoods and CosmicFish Fisher matrices"
+            - "Dennis Linde, 2021-2022, topic: 1-loop EFTofLSS implementation into CLASS"
+            - "Sefa Pamuk, 2022-2023, topic: MontePython likelihoods and CosmicFish Fisher Matrices for neutrino parameters"
+            - "Christian Rademacher, 2022-2023, topic: MCMC forecasts and validation against simulations of the CLASS 1-loop code"
+            - "Kostas Revis, 2022-2023, topic: Correlation of Dark Sirens and Euclid Galaxy Clustering"
+        - title: Bachelor Student supervision
+          contents:
+            - "Yun Ling, 2023, topic: Fisher matrices with the Python N-body code CONCEPT for neutrino cosmology"
+            - "Jakob Kramp, 2022, topic: Autodifferentiable Variational Inference for Supernova Cosmology"
+    - title: (Euclid) Postdoctoral Researcher
+      institution: > 
+                  Commissariat à l'énergie atomique et aux énergies alternatives (CEA Paris-Saclay), 
+                  Department of Astrophysics, CosmoStat Lab
+      year: 2018-2021
       description:
-        - Description 1.
-        - Description 2.
+        - Research in cosmological parameter estimation and likelihoods
+        - Fisher and MCMC forecasting for Euclid and other probes
+        - Modified Gravity modelling at non-linear scales
+        - Inflation and CMB
+        - Machine Learning emulators, Optimal Transport, Dictionary Learning
+        - Code development for CosmicFishPie, Euclid CLOE likelihood and IST:Forcasting
+        - title: Internship supervisor
+          contents: 
+            - Senwen Dang, forecasts for alpha-attractor models
+            - Raphael Baena, machine learning emulators
+        - title: Course instructor
+          contents:
+            - Python, Numpy and Scipy for scientists
+            - Einstein Boltzmann solvers in docker
+    - title: Physics Lecturer
+      institution: Universidad de Costa Rica
+      year: 2010-2011
+      description:  Physics Lecturer for General Physics 1, 2 and Physics for Life Sciences
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Physicist and Programmer
+      institution: Engineering Scientific Services (ESS), San José
+      year: 2009-2010
+      description: Code development of finite element methods for engineering solutions
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Contributor to <a href="https://github.com/DifferentiableUniverseInitiative/jax_cosmo">jax cosmo</a>
+      year: 2020-now
+      description: A differentiable cosmology library in JAX
+    - title: <a href="https://github.com/santiagocasas/cosmicfishpie">cosmicfishpie</a>
+      year: 2019-now
+      description: Fisher matrix code and Cosmological Theory modelling for Galaxy Clustering. Weak Lensing, Intensity Mapping, CMB and their cross-correlations
+    - title: <a href="https://github.com/santiagocasas/looti">looti</a>
+      year: 2018-now
+      description: Emulator for cosmological quantities, using Gaussian Processes, PCA and Dictionary Learning
+    - title: <a href="https://github.com/santiagocasas/cosmomathica">cosmomathica</a>
+      year: 2014-2020
+      description: > 
+            Wolfram Mathematica wrapper for cosmological Einstein-Boltzmann-Solvers, non-linear prescriptions and background equations. 
+            Together with <a href="https://github.com/santiagocasas/fishermathica">fishermathica</a> providing a toolkit 
+            for general Fisher Matrix forecasting with different cosmological surveys.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2019
+      items: >
+          Euclid STAR prize for best team, IST:Forecasting
+          Presented prize award talk at the EC Meeting in Helsinki
+    - year: 2011
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+        - MICIT (Ministry of Science and Technology of Costa Rica) scholarship for Master studies abroad
+    - year: 2010
+      items:
+        - Laboratorio Nacional de Luz Sincrotron (LNLS) Scholarship for a summer internship, Campinas, Brazil.
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+    - title: Dark Energy and Modified Gravity
       items:
-        - Description 1.
-        - Description 2.
+        - Scalar-tensor theories of gravity such as f(R), Coupled Quintessence, Brans-Dicke
+        - Horndeski scalar-tensor theory
+        - Screening mechanisms for scalar-tensor theories, such as Chameleons, Vainshtein, etc.
+        - Parametrized deviations of General Relativity, with \mu, \Sigma parameters
+        - Effective Field Theory of Dark Energy
+    - title: Large Scale Structure
+      items:
+        - Galaxy Clustering, BAO, Redshift Space Distortions
+        - Effective Field Theory of LSS. 1-loop perturbation theory using FFTLog
+        - Weak Lensing, Cosmic Shear and the 3x2pt correlation function
+    - title: Galaxy Surveys and Cosmological Observations
+      items:
+        - ESA's Euclid space satellite mission, EC consortium member, Builder status
+        - SKAO (Square-Kilometer-Array-Observatory), radio-cosmology, Cosmology SWG member
+        - Stage-IV Cosmic Microwave Experiments for Temperature and Polarization
+        - DESI, Vera Rubin Observatory (LSST survey)
+        - Gravitational Waves Dark Sirens in correlation with Galaxy Surveys
+    - title: Bayesian statistics and Machine Learning
+      items:
+        - Fisher information matrix 
+        - Markov-Chain-Monte-Carlo parameter estimation
+        - Cosmological Likelihoods
+        - Variational inference
+        - Hamilton-Monte-Carlo techniques
+        - Differentiable probabilistic programming
+        - Gaussian Processes
+        - PCA
+    - title: Computational physics and cosmology
+      items:
+        - N-body simulatons, runs, and post-processing
+        - Einstein-Boltzmann-Solvers (CAMB in Fortran, CLASS in C)
+        - Modified Gravity Einstein-Boltzmann Solvers
+        - Differentiable likelihoods in JAX
+        - ML-based Emulators for cosmological quantities
+        - Python code development, High-performance computing, Optimization problems
 
-- title: Other Interests
+
+- title: Other interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Salsa dancing
+    - Trumpet playing
+    - Hosting Podcasts (Podcastination on all major platforms)
+    - Photography
+    - YouTuber (9M views)
+    - Economics
+    - Blockchain
+    - Skiing
