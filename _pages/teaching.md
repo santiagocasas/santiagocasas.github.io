@@ -14,3 +14,8 @@ nav_order: 5
 * Teacher for General Physics 1, 2
 * Teacher for Physics in Life Sciences
 
+#### University of Heidelberg
+
+* Teaching assistant in General Relativity
+* Teaching assistant in Electromagnetism (in German)
+
