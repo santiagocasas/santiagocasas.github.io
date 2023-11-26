@@ -27,5 +27,6 @@ I did my Bachelor in Physics at the [Universidad de Costa Rica](https://www.ucr.
 In my free time, I like to contribute back to my home region by being part of the [**Alpha-Cen**](https://astro.alphacen.org/en/) network, which is a non-profit and non-governmental scientific group created for the development and strengthening of research in astronomical sciences in Central America and the Caribbean. 
 
 I am also very interested in reading about Macroeconomics, Blockchain, Digital Currencies and if I'm not doing that, then you can find me in the next Karaoke bar or at home listening to good music, while I try to remember the days when I was a trumpet player. I am a great fan of photography and sometimes post on instagram pretty pictures taken with my Nikon DSLR or some old analog camera.
+I love chess, football and skiing.
 
 For more information, click on the icons below to contact me by Mail or (X) Twitter and follow me on Google Scholar, Github, ORCID, Medium and more.
