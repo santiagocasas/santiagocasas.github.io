@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Montepython issues
-date: 2024-08-26 08:57:00-0400
+date: 2024-08-25 08:57:00-0400
 description: Montepython problems
 tags: cosmology
 categories: sample-posts
