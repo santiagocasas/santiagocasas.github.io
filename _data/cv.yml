@@ -6,91 +6,100 @@
     - name: Date of Birth
       value: 20th July 1987
     - name: Languages
-      value: Spanish (native), English (C2-proficiency), German (second-language), French (B1), Portuguese (A2)
+      value: Spanish (native), English (C2-proficiency), German (C2), French (B1), Portuguese (A2)
+    - name: Summary
+      value: >
+        Theoretical Cosmologist with a profound interest in the nature of Dark Matter and Dark Energy. Specializing in the synergies between radio, optical, and gravitational experiments to explore the Universe's large-scale structure. Proficient Python programmer contributing to and developing more than 5 open source projects widely used in the field. Expert in Bayesian statistics, theories of gravity, the primordial Universe, neutrinos, and cosmological parameter estimation. Active member of the Euclid–builder status–and SKAO collaborations. Known for being a flexible and dynamic team player with a keen curiosity across interdisciplinary fields and strong social skills.
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD in Theoretical Cosmology
-      institution: > 
-                University of Heidelberg, Heidelberg, Germany
-                Institute for Theoretical Physics (ITP), Philosophenweg 12
-      year: 2017
+    - title: PhD in Theoretical Physics
+      institution: Institute of Theoretical Physics, Ruprecht-Karls-Universität Heidelberg, Germany
+      year: 2013-2017
       description:
-        - <b> Summa Cum Laude </b>, Grade 1.0 with honors
-        - title: Supervisors 
+        - Summa Cum Laude
+        - title: Supervisors
           contents:
-            - Prof. Valeria Pettorino
-            - Prof. Luca Amendola 
-        - title: Topics
+            - Dr. Valeria Pettorino
+            - Prof. Luca Amendola
+            - Jury Prof. Volker Springel
+        - title: Thesis
           contents:
             - Non-linear structure formation in models of Dark Energy and Modified Gravity
             - Bayesian statistics, Fisher Information Matrix, Cosmological Parameter Estimation
             - Work for the Euclid Consortium, Theory Science Working Group
             - Galaxy Clustering and Weak Lensing
     - title: Master of Science in Physics
-      institution: University of Heidelberg, Heidelberg, Germany
-      year: 2013
+      institution: Institute of Theoretical Physics, Ruprecht-Karls-Universität Heidelberg, Germany
+      year: 2011-2013
       description:
         - Grade 1.2
-        - "Master thesis topic: Fitting and forecasting models of Coupled Dark Energy based on N-body simulations"
-        - Focus area in Theoretical Physics, General Relativity and Quantum Field Theory
+        - title: Thesis
+          contents:
+            - Fitting and forecasting models of coupled Dark Energy from simulations
         - title: Supervisors
           contents:
             - Prof. Luca Amendola
-            - Dr. Marco Baldi
+            - Prof. Marco Baldi
     - title: Bachelor of Science in Physics
-      institution: Universidad de Costa Rica, San José, Costa Rica
-      year: 2010
+      institution: University of Costa Rica, San José, Costa Rica
+      year: 2006-2009
       description:
-        - Bachelor research project at the section of Theoretical Physics on Geometrical Methods for Gravity
-        - Assistant at the Section for Theoretical Physics
-        - Assistant at the University Planetarium
-
+        - Student assistant at the Planetarium and at the Department of Theoretical Physics
+    - title: German Abitur
+      institution: Deutsche Humboldt Schule, San José, Costa Rica
+      year: 1998-2005
+      description:
+        - "Emphasis: Natural Sciences. Grade: 1.5"
 
 - title: Experience
   type: time_table
   contents:
     - title: Postdoctoral Researcher
-      institution: Theoretische Teilchenphysik und Kosmologie (TTK), RWTH University, Aachen, Germany
-      year: 2021-2023
+      institution: Institute of Cosmology and Gravitation, University of Portsmouth, United Kingdom
+      year: 2024-
       description:
-        - Research in cosmological parameter estimation and likelihoods
-        - Fisher and MCMC forecasting for Euclid and other probes in LCDM and neutrino cosmology
-        - Modified Gravity modelling at non-linear scales
-        - Machine Learning emulators
-        - Code development for CosmicFishPie, MontePython, CLASS and the Euclid CLOE likelihood
+        - Euclid research scientist with Builder status
+        - Theory Working Group Work Package Likelihood co-lead
+        - Theory Working Group pre-launch Key Project coordinator
+        - SKAO Synergies and Cosmology, Science Book chapter coordinator
+    - title: Postdoctoral Researcher
+      institution: Theoretische Teilchenphysik und Kosmologie (TTK), RWTH Aachen University, Germany
+      year: 2021-2024
+      description:
+        - Theoretical, phenomenological and numerical cosmology
+        - Supervised 5 master (1-year each) and 2 bachelor students (3-months each)
+        - "<b>Topics</b> : Neutrinos in Cosmology, Bayesian Statistics, Likelihoods, Galaxy Clustering and Weak Lensing, Effective Field Theory for Large Scale Structure, Modified Gravity, Gravitational Waves, Machine Learning Emulators"
+        - Published 7 independent papers, 8 Euclid collaboration papers as lead author and co-signed more than 50 Euclid collaboration papers
+        - "Development in cosmological software packages: CLOE, MontePython, CosmicFish, CLASS-1loop, JaxCosmo"
         - title: Teaching Assistant
           contents:
-            - General Relativity
-            - Ingredients of the Universe (Advanced Cosmology)
-            - Theoretical Mechanics, Bachelor level (in German)
-            - Electromagnetism, Bachelor level (in German)
+            - Theoretical Mechanics (B.Sc., in German)
+            - General Relativity (M.Sc., in English)
+            - Advanced Cosmology (M.Sc., in English)
         - title: Master Student supervision
           contents:
-            - "Sabarish V.M., 2021-2022, topic: Validation of MontePython Euclid likelihoods and CosmicFish Fisher matrices"
-            - "Dennis Linde, 2021-2022, topic: 1-loop EFTofLSS implementation into CLASS"
-            - "Sefa Pamuk, 2022-2023, topic: MontePython likelihoods and CosmicFish Fisher Matrices for neutrino parameters"
-            - "Christian Rademacher, 2022-2023, topic: MCMC forecasts and validation against simulations of the CLASS 1-loop code"
-            - "Kostas Revis, 2022-2023, topic: Correlation of Dark Sirens and Euclid Galaxy Clustering"
+            - Sabarish V.M., 2021-2022, Validation of MontePython Euclid likelihoods and CosmicFish Fisher matrices
+            - Dennis Linde, 2021-2022, 1-loop EFTofLSS implementation into CLASS
+            - Sefa Pamuk, 2022-2023, MontePython likelihoods and CosmicFish Fisher Matrices for neutrino parameters
+            - Christian Rademacher, 2022-2023, MCMC forecasts and validation against simulations of the CLASS 1-loop code
+            - Kostas Revis, 2022-2023, Correlation of Dark Sirens and Euclid Galaxy Clustering
         - title: Bachelor Student supervision
           contents:
-            - "Yun Ling, 2023, topic: Fisher matrices with the Python N-body code CONCEPT for neutrino cosmology"
-            - "Jakob Kramp, 2022, topic: Autodifferentiable Variational Inference for Supernova Cosmology"
-    - title: (Euclid) Postdoctoral Researcher
-      institution: > 
-                  Commissariat à l'énergie atomique et aux énergies alternatives (CEA Paris-Saclay), 
-                  Department of Astrophysics, CosmoStat Lab
+            - Yun Ling, 2023, Fisher matrices with the Python N-body code CONCEPT for neutrino cosmology
+            - Jakob Kramp, 2022, Autodifferentiable Variational Inference for Supernova Cosmology
+    - title: Postdoctoral Researcher
+      institution: CosmoStat, DAp, CEA, Paris-Saclay, France
       year: 2018-2021
       description:
-        - Research in cosmological parameter estimation and likelihoods
-        - Fisher and MCMC forecasting for Euclid and other probes
-        - Modified Gravity modelling at non-linear scales
-        - Inflation and CMB
-        - Machine Learning emulators, Optimal Transport, Dictionary Learning
-        - Code development for CosmicFishPie, Euclid CLOE likelihood and IST:Forcasting
+        - Theoretical, phenomenological and numerical cosmology for Euclid
+        - Supervised 2 Masters 1/2 interns (6-months each)
+        - "<b>Topics</b> : Bayesian Statistics, Likelihoods, Forecasts, Galaxy Clustering and Weak Lensing, 21cm Radio Cosmology, Modified Gravity, Machine Learning Emulators"
+        - Published 12 independent papers, 4 Euclid collaboration papers as lead author and co-signed more than 15 Euclid collaboration papers
+        - "Development in cosmological software packages: CLOE, CosmicFish, JaxCosmo"
         - title: Internship supervisor
-          contents: 
+          contents:
             - Senwen Dang, forecasts for alpha-attractor models
             - Raphael Baena, machine learning emulators
         - title: Course instructor
@@ -100,41 +109,51 @@
     - title: Physics Lecturer
       institution: Universidad de Costa Rica
       year: 2010-2011
-      description:  Physics Lecturer for General Physics 1, 2 and Physics for Life Sciences
-
-    - title: Physicist and Programmer
-      institution: Engineering Scientific Services (ESS), San José
+      description: Lecturer for General Physics II, Laboratory of Physics I and II and Physics for Life Sciences
+    - title: Physicist and Software Developer
+      institution: Engineering Scientific Services, San José, Costa Rica
       year: 2009-2010
-      description: Code development of finite element methods for engineering solutions
+      description: Developing Finite element methods in Objective-C for engineering applications
+    - title: Data Scientist
+      institution: DeFi Pulse, Remote, USA
+      year: 2009-2010
+      description: Creating graph-databases to analyze decentralized finance portfolios on-chain in Ethereum
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: Contributor to <a href="https://github.com/DifferentiableUniverseInitiative/jax_cosmo">jax cosmo</a>
+    - title: <a href="https://github.com/santiagocasas/clapp">CLAPP</a>
+      year: 2024-now
+      description: "CLAPP: CLASS LLM Agent for Pair Programming"
+    - title: <a href="https://github.com/santiagocasas/topo-cobaya">Topo Cobaya</a>
+      year: 2024-now
+      description: A cryptographically time-ordered provable output implementation of the Cobaya framework
+    - title: <a href="https://github.com/DifferentiableUniverseInitiative/jax_cosmo">jax_cosmo</a>
       year: 2020-now
       description: A differentiable cosmology library in JAX
     - title: <a href="https://github.com/santiagocasas/cosmicfishpie">cosmicfishpie</a>
       year: 2019-now
-      description: Fisher matrix code and Cosmological Theory modelling for Galaxy Clustering. Weak Lensing, Intensity Mapping, CMB and their cross-correlations
+      description: Fisher matrix code and Cosmological Theory modelling for Galaxy Clustering, Weak Lensing, Intensity Mapping, CMB and their cross-correlations
     - title: <a href="https://github.com/santiagocasas/looti">looti</a>
       year: 2018-now
       description: Emulator for cosmological quantities, using Gaussian Processes, PCA and Dictionary Learning
     - title: <a href="https://github.com/santiagocasas/cosmomathica">cosmomathica</a>
       year: 2014-2020
-      description: > 
-            Wolfram Mathematica wrapper for cosmological Einstein-Boltzmann-Solvers, non-linear prescriptions and background equations. 
-            Together with <a href="https://github.com/santiagocasas/fishermathica">fishermathica</a> providing a toolkit 
-            for general Fisher Matrix forecasting with different cosmological surveys.
+      description: >
+        Wolfram Mathematica wrapper for cosmological Einstein-Boltzmann-Solvers, non-linear prescriptions and background equations. Together with <a href="https://github.com/santiagocasas/fishermathica">fishermathica</a> providing a toolkit for general Fisher Matrix forecasting with different cosmological surveys.
 
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2024
+      items: >
+        Euclid STAR prize IDEA for the ECI IST:Forecasting team (presented COM effort, Rome 2024, plenary STAR prize talk)
     - year: 2019
       items: >
-          Euclid STAR prize for best team, IST:Forecasting
-          Presented prize award talk at the EC Meeting in Helsinki
+        Euclid STAR prize for best team, IST:Forecasting
+        Presented prize award talk at the EC Meeting in Helsinki
     - year: 2011
-      items: 
+      items:
         - MICIT (Ministry of Science and Technology of Costa Rica) scholarship for Master studies abroad
     - year: 2010
       items:
@@ -164,7 +183,7 @@
         - Gravitational Waves Dark Sirens in correlation with Galaxy Surveys
     - title: Bayesian statistics and Machine Learning
       items:
-        - Fisher information matrix 
+        - Fisher information matrix
         - Markov-Chain-Monte-Carlo parameter estimation
         - Cosmological Likelihoods
         - Variational inference
@@ -174,13 +193,60 @@
         - PCA
     - title: Computational physics and cosmology
       items:
-        - N-body simulatons, runs, and post-processing
+        - N-body simulations, runs, and post-processing
         - Einstein-Boltzmann-Solvers (CAMB in Fortran, CLASS in C)
         - Modified Gravity Einstein-Boltzmann Solvers
         - Differentiable likelihoods in JAX
         - ML-based Emulators for cosmological quantities
         - Python code development, High-performance computing, Optimization problems
 
+- title: Community Impact
+  type: time_table
+  contents:
+    - title: Referee of High Impact Journals in Cosmology
+      year: 2015-present
+      description: JCAP, Physical Review D, Physics of the Dark Universe, Monthly Notices of the Royal Astronomical Society, Astronomy & Astrophysics
+    - title: Winter School Organizer
+      year: 2016-2021
+      description: Tonale winter school in Cosmology, for Master and PhD students. 4 times in the local organization team. Arranging of speakers, student support, website, design of program, on-site management.
+    - title: Alpha-Cen founding member
+      year: 2019-present
+      description: Mentoring for Students of Central America
+
+- title: Invited Talks / Conferences / Workshops / Schools
+  type: list
+  contents:
+    - "SKAO collaboration meetings; Invited speaker: SKA France (2019), Remote Science Conference (2021), Manchester SWG meeting (2023)"
+    - International Summer School in Communicating Science; Alexander von Humboldt Foundation, Berlin, 2021
+    - MIAPbP Workshop, Garching; Differentiable Methods in Physics, 3 Weeks. By invitation only
+    - Notable seminars in past 5 years; COSPAR-Pasadena, Prague, Porto, Leiden, Pascal Institute, Poincaré Institute, Oslo, Portsmouth, Ringberg. First Central American Aerospace Symposium
+    - Euclid Collaboration meetings; Lausanne, Lisbon, London, Bonn, Helsinki (plenary prize talk), Oslo, Copenhagen, Rome
+    - Invited talks 2023; Brussels Workshop, Saclay Astroparticle Symposium, Institute Seminar at the Bethe Center (Bonn), Cosmology Seminar (CEICO, Prague), Cosmology Seminar (Oslo), TTK Seminar
+    - Invited talks 2024; Lorentz Institute (Leiden), Euclid Consortium Rome meeting, Group seminar at University Ghent, 35th Rencontres de Blois 2024
+
+- title: Soft Skills
+  type: list
+  contents:
+    - "Podcasts: My Cosmic-Sloth Podcast for researchers about the academic world"
+    - "Outreach: Telemedellín Colombia, Delfino Noticias Costa Rica, El Espectador, Colombia. El Colombiano, Colombia. Public talks at libraries and outreach events"
+    - "Blogs: Contributor to Astrobitos, Blog CNRS 80-years anniversary, Euclid Consortium Instagram – social media manager"
+    - "Invited Guest at Podcasts: Astroblog Chile, Starts with a Bang"
+    - "Public talks and outreach events"
+
+- title: References
+  type: list
+  contents:
+    - Prof. Valeria Pettorino
+    - Prof. Martin Kunz
+    - Prof. Julien Lesgourgues
+    - Prof. Luca Amendola
+    - Prof. Marco Baldi
+    - Prof. Christof Wetterich
+    - Prof. Massimo Pietroni
+    - Prof. Alkistis Pourtsidou
+    - Prof. Matthias Bartelmann
+    - Prof. Kazuya Koyama
+    - Dr. Vincenzo Cardone
 
 - title: Other interests
   type: list
