@@ -1,10 +1,10 @@
 ---
 layout: post
-title: a post with jupyter notebook
+title: Simple cosmicfishpie example
 date: 2023-11-11 08:57:00-0400
 description: A cosmology calculator from CosmicFishPie
 tags: formatting jupyter
-categories: sample-posts
+categories: cosmology
 giscus_comments: true
 related_posts: false
 ---
