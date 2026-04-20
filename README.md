@@ -3,7 +3,9 @@
 [![Deploy](https://github.com/santiagocasas/santiagocasas.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/santiagocasas/santiagocasas.github.io/actions/workflows/deploy.yml)
 [![Code Style](https://github.com/santiagocasas/santiagocasas.github.io/actions/workflows/prettier.yml/badge.svg)](https://github.com/santiagocasas/santiagocasas.github.io/actions/workflows/prettier.yml)
 
-Personal academic website of Santiago Casas: theoretical physicist, cosmologist, and astrophysicist.
+Personal academic website of Santiago Casas: theoretical physicist, cosmologist, and data science enthusiast.
+
+Conversations about AI, economics, space science, open science, ontologies and programming.
 
 Live site: https://santiagocasas.github.io
 
