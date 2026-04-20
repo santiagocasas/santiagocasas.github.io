@@ -8,10 +8,6 @@ category: work
 related_publications: Euclid:2024imf
 ---
 
-
 Jupyter notebook slides:
 
-
 - <a href="{{ site.baseurl }}/slides/jupslides.html" target="_blank">View Jupyter Slides</a>
-
-

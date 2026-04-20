@@ -11,10 +11,16 @@ profile:
   more_info: >
     Work address: Sommerfeldstr. 16, 52074 Aachen, Deutschland
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+announcements:
+  enabled: true
+  scrollable: true
+  limit: 5
+latest_posts:
+  enabled: true
+  scrollable: true
+  limit: 3
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 
 I am a cosmologist and theoretical physicist with a varied cultural background. Born in Colombia and raised in Costa Rica under a German culture and education.
@@ -24,7 +30,7 @@ My research interests consist broadly on unveiling the mysteries of the Dark Uni
 
 I did my Bachelor in Physics at the [Universidad de Costa Rica](https://www.ucr.ac.cr), my Master in Physics (with emphasis in Theoretical Physics) at the [University of Heidelberg](https://www.uni-heidelberg.de/en) and I stayed in the same city at the [Institute for Theoretical Physics](https://www.thphys.uni-heidelberg.de/) for my PhD studies under the supervision of Prof. Luca Amendola and Prof. Valeria Pettorino.
 
-In my free time, I like to contribute back to my home region by being part of the [**Alpha-Cen**](https://astro.alphacen.org/en/) network, which is a non-profit and non-governmental scientific group created for the development and strengthening of research in astronomical sciences in Central America and the Caribbean. 
+In my free time, I like to contribute back to my home region by being part of the [**Alpha-Cen**](https://astro.alphacen.org/en/) network, which is a non-profit and non-governmental scientific group created for the development and strengthening of research in astronomical sciences in Central America and the Caribbean.
 
 I am also very interested in reading about Macroeconomics, Blockchain, Digital Currencies and when I'm not doing that, you can find me in the next Karaoke bar or at home listening to good music, trying to remember the days when I was a trumpet player. I am a great fan of photography and sometimes post on my instagram pretty pictures taken with my Nikon DSLR or some old analog camera.
 I love chess, football, salsa dancing and skiing.
