@@ -46,10 +46,7 @@
       "url": "https://www.port.ac.uk/research/research-centres-and-groups/institute-of-cosmology-and-gravitation",
       "startDate": "2024-01-01",
       "summary": "Euclid research scientist with builder status, co-leading likelihood work in the Theory Working Group and coordinating pre-launch key project work.",
-      "highlights": [
-        "Euclid Builder and Theory Working Group leader",
-        "SKAO synergies and cosmology science book chapter coordinator"
-      ]
+      "highlights": ["Euclid Builder and Theory Working Group leader", "SKAO synergies and cosmology science book chapter coordinator"]
     },
     {
       "name": "RWTH Aachen University",
@@ -70,10 +67,7 @@
       "startDate": "2018-01-01",
       "endDate": "2021-01-01",
       "summary": "Worked on Euclid-related cosmology forecasts, likelihoods, modified gravity, 21 cm cosmology, and machine-learning emulators.",
-      "highlights": [
-        "Supervised interns and taught scientific Python courses",
-        "Contributed to CLOE, CosmicFish, and JaxCosmo"
-      ]
+      "highlights": ["Supervised interns and taught scientific Python courses", "Contributed to CLOE, CosmicFish, and JaxCosmo"]
     },
     {
       "name": "Universidad de Costa Rica",
@@ -97,10 +91,7 @@
       "url": "https://astro.alphacen.org/en/",
       "startDate": "2019-01-01",
       "summary": "Mentoring network supporting students and researchers in Central America and the Caribbean.",
-      "highlights": [
-        "Community mentoring",
-        "Remote webinars and outreach"
-      ]
+      "highlights": ["Community mentoring", "Remote webinars and outreach"]
     }
   ],
   "education": [
@@ -113,11 +104,7 @@
       "startDate": "2013-01-01",
       "endDate": "2017-01-01",
       "score": "Summa Cum Laude",
-      "courses": [
-        "Dark energy and modified gravity",
-        "Non-linear structure formation",
-        "Bayesian statistics and Fisher forecasting"
-      ]
+      "courses": ["Dark energy and modified gravity", "Non-linear structure formation", "Bayesian statistics and Fisher forecasting"]
     },
     {
       "institution": "Ruprecht-Karls-Universitat Heidelberg",
@@ -128,10 +115,7 @@
       "startDate": "2011-01-01",
       "endDate": "2013-01-01",
       "score": "1.2",
-      "courses": [
-        "Theoretical physics",
-        "Coupled dark energy forecasts"
-      ]
+      "courses": ["Theoretical physics", "Coupled dark energy forecasts"]
     },
     {
       "institution": "University of Costa Rica",
@@ -169,35 +153,17 @@
     {
       "name": "Cosmology",
       "level": "Expert",
-      "keywords": [
-        "Dark energy",
-        "Modified gravity",
-        "Large-scale structure",
-        "Weak lensing",
-        "Galaxy clustering"
-      ]
+      "keywords": ["Dark energy", "Modified gravity", "Large-scale structure", "Weak lensing", "Galaxy clustering"]
     },
     {
       "name": "Statistics and Inference",
       "level": "Expert",
-      "keywords": [
-        "Bayesian statistics",
-        "Fisher matrices",
-        "MCMC",
-        "Likelihoods",
-        "Variational inference"
-      ]
+      "keywords": ["Bayesian statistics", "Fisher matrices", "MCMC", "Likelihoods", "Variational inference"]
     },
     {
       "name": "Scientific Computing",
       "level": "Advanced",
-      "keywords": [
-        "Python",
-        "JAX",
-        "High-performance computing",
-        "Gaussian processes",
-        "Differentiable programming"
-      ]
+      "keywords": ["Python", "JAX", "High-performance computing", "Gaussian processes", "Differentiable programming"]
     }
   ],
   "languages": [
@@ -225,30 +191,15 @@
   "interests": [
     {
       "name": "Research",
-      "keywords": [
-        "Euclid",
-        "SKAO",
-        "Dark universe",
-        "Survey synergies"
-      ]
+      "keywords": ["Euclid", "SKAO", "Dark universe", "Survey synergies"]
     },
     {
       "name": "Community and Outreach",
-      "keywords": [
-        "Mentoring",
-        "Podcasting",
-        "Science communication"
-      ]
+      "keywords": ["Mentoring", "Podcasting", "Science communication"]
     },
     {
       "name": "Personal",
-      "keywords": [
-        "Photography",
-        "Salsa dancing",
-        "Trumpet",
-        "Skiing",
-        "Chess"
-      ]
+      "keywords": ["Photography", "Salsa dancing", "Trumpet", "Skiing", "Chess"]
     }
   ],
   "references": [
@@ -269,30 +220,21 @@
     {
       "name": "cosmicfishpie",
       "summary": "Fisher-matrix and cosmological-theory toolkit for galaxy clustering, weak lensing, intensity mapping, CMB, and cross-correlations.",
-      "highlights": [
-        "Forecasting cosmological observables",
-        "Open-source scientific software"
-      ],
+      "highlights": ["Forecasting cosmological observables", "Open-source scientific software"],
       "startDate": "2019-01-01",
       "url": "https://github.com/santiagocasas/cosmicfishpie"
     },
     {
       "name": "looti",
       "summary": "Machine-learning emulator for cosmological quantities using Gaussian processes, PCA, and dictionary learning.",
-      "highlights": [
-        "Emulation",
-        "Cosmological inference"
-      ],
+      "highlights": ["Emulation", "Cosmological inference"],
       "startDate": "2018-01-01",
       "url": "https://github.com/santiagocasas/looti"
     },
     {
       "name": "cosmomathica",
       "summary": "Wolfram Mathematica wrapper around Einstein-Boltzmann solvers and non-linear cosmology tools.",
-      "highlights": [
-        "CAMB and CLASS workflows",
-        "Forecasting support"
-      ],
+      "highlights": ["CAMB and CLASS workflows", "Forecasting support"],
       "startDate": "2014-01-01",
       "endDate": "2020-01-01",
       "url": "https://github.com/santiagocasas/cosmomathica"

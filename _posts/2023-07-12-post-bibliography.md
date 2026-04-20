@@ -9,4 +9,5 @@ giscus_comments: true
 related_posts: false
 related_publications: Euclid:2023tqw, Euclid:2023pxu
 ---
+
 This post shows how to add bibliography to simple blog posts.

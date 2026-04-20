@@ -7,7 +7,6 @@ nav: true
 nav_order: 8
 ---
 
-
 Here are some of my important slides:
 
 <a href="{{ site.baseurl }}/slides/jupslides.html" target="_blank">View Jupyter Slides</a>
@@ -21,4 +20,3 @@ Here are some of my important slides:
 ## Research Path summary
 
 <iframe src="https://slides.com/santiagocasas/careerpath/embed" width="576" height="420" title="My career path as a cosmologist" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-

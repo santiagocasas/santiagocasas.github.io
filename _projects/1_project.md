@@ -8,7 +8,6 @@ category: work
 related_publications: Euclid:2023tqw
 ---
 
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/fofR-casas-main.jpg" title="Euclid Forecasts for f(R) gravity" class="img-fluid rounded z-depth-1" %}
@@ -21,6 +20,3 @@ related_publications: Euclid:2023tqw
     primordial slope ns on its own, the orthogonality of the contours for GCsp and WL in the subspaces involving h and ns , helps to lift degeneracies
     and further improves the fully-marginalized constraints on log10 | fR0|, when probe combinations are used.
 </div>
-
-
-
