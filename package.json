@@ -1,4 +1,11 @@
 {
+  "scripts": {
+    "dev": "docker compose up",
+    "build": "docker compose run --rm jekyll bundle exec jekyll build",
+    "install-gems": "docker compose run --rm jekyll bundle install",
+    "format": "prettier . --write",
+    "format:check": "prettier . --check"
+  },
   "devDependencies": {
     "@shopify/prettier-plugin-liquid": "^1.10.0",
     "prettier": "^3.8.0"
