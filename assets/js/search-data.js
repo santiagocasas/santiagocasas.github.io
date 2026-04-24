@@ -65,7 +65,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/slides/";
           },
-        },{id: "post-montepython-issues",
+        },{id: "post-becoming-a-carpentries-instructor",
+        
+          title: "Becoming a Carpentries Instructor",
+        
+        description: "Reflections on the Carpentries Instructor Training and upcoming teaching.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/carpentries-instructor-training/";
+          
+        },
+      },{id: "post-montepython-issues",
         
           title: "Montepython issues",
         
@@ -111,6 +122,12 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-i-have-given-the-plenary-talk-on-behalf-of-the-whole-cosmological-theory-working-group-of-the-euclid-consortium-at-the-ec-annual-meeting-in-rome-euclid-consortium-website-summarizing-and-highlighting-the-amazing-science-that-will-be-possible-with-euclid-s-unprecedented-data-i-will-post-the-slides-on-this-website-soon",
           title: 'I have given the plenary talk on behalf of the whole Cosmological Theory...',
+          description: "",
+          section: "News",},{id: "news-i-have-started-working-as-an-ontologist-at-the-german-aerospace-center-dlr-in-the-department-of-scientific-information-and-research-data-management",
+          title: 'I have started working as an Ontologist at the German Aerospace Center (DLR)...',
+          description: "",
+          section: "News",},{id: "news-i-recently-completed-the-carpentries-instructor-training-and-am-now-a-certified-instructor-i-wrote-a-short-note-about-the-experience-here",
+          title: 'I recently completed the Carpentries Instructor Training and am now a certified instructor....',
           description: "",
           section: "News",},{id: "projects-forecasts-for-f-r-gravity-with-euclid-39-s-primary-probes",
           title: 'Forecasts for f(R) gravity with Euclid&amp;#39;s primary probes',
