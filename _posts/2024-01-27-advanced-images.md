@@ -11,6 +11,7 @@ images:
   compare: true
   slider: true
 ---
+
 published: false
 
 This is an example post with advanced image components.

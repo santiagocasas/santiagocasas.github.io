@@ -8,6 +8,7 @@ tags: formatting diagrams
 categories: sample-posts
 typograms: true
 ---
+
 published: false
 
 This is an example post with some [typograms](https://github.com/google/typograms/) code.
