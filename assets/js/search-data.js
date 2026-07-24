@@ -65,6 +65,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/slides/";
           },
+        },{id: "nav-digital-identity",
+          title: "digital identity",
+          description: "Public X.509 certificates for verifying signed documents and S/MIME email.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/security/";
+          },
         },{id: "post-becoming-a-carpentries-instructor",
         
           title: "Becoming a Carpentries Instructor",
