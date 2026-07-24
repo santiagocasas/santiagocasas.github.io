@@ -35,4 +35,4 @@ In my free time, I like to contribute back to my home region by being part of th
 I am also very interested in reading about Macroeconomics, Blockchain, Digital Currencies and when I'm not doing that, you can find me in the next Karaoke bar or at home listening to good music, trying to remember the days when I was a trumpet player. I am a great fan of photography and sometimes post on my instagram pretty pictures taken with my Nikon DSLR or some old analog camera.
 I love chess, football, salsa dancing and skiing.
 
-For more information, click on the icons below to contact me by Mail or X (Twitter) or follow me on Google Scholar, Github, ORCID, Medium and more.
+For more information, click on the icons below to contact me by Mail or X (Twitter) or follow me on Google Scholar, Github, ORCID, Medium and more. My [digital identity and public certificates](/security/) are available for verifying signed documents and S/MIME email.
