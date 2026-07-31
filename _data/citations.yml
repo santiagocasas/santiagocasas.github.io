@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-17'
+  last_updated: '2026-07-31'
 papers:
   5TiVEDMAAAAJ:-6RzNnnwWf8C:
     citations: 0
@@ -34,19 +34,23 @@ papers:
     title: 'VizieR Online Data Catalog: DAWN Survey PL (Zalesky+, 2025)'
     year: '2025'
   5TiVEDMAAAAJ:0izLItjtcgwC:
-    citations: 31
+    citations: 32
     title: Constraining gravity with synergies between radio and optical cosmological surveys
     year: '2023'
   5TiVEDMAAAAJ:0sTkTiv_uMkC:
     citations: 0
     title: Euclid preparation LVIII. Detecting extragalactic globular clusters in the Euclid survey
     year: Unknown Year
+  5TiVEDMAAAAJ:17ZO-CJnx_8C:
+    citations: 0
+    title: 'VizieR Online Data Catalog: Euclid Q1. Little red dots properties (Euclid Coll., 2026)'
+    year: '2025'
   5TiVEDMAAAAJ:1Ye0OR6EYb4C:
-    citations: 24
+    citations: 26
     title: Euclid preparation-LI. Forecasting the recovery of galaxy physical properties and their relations with template-fitting and machine-learning methods
     year: '2024'
   5TiVEDMAAAAJ:1lhNe0rCu4AC:
-    citations: 61
+    citations: 65
     title: "Euclid: Early Release Observations\u2013Deep anatomy of nearby galaxies"
     year: '2025'
   5TiVEDMAAAAJ:1taIhTC69MYC:
@@ -54,7 +58,7 @@ papers:
     title: Euclid preparation-LV. Exploring the properties of proto-clusters in the Simulated Euclid Wide Survey
     year: '2025'
   5TiVEDMAAAAJ:1yWc8FF-_SYC:
-    citations: 34
+    citations: 37
     title: Euclid preparation-XLVIII. The pre-launch Science Ground Segment simulation framework
     year: '2024'
   5TiVEDMAAAAJ:27LrP4qxOz0C:
@@ -62,7 +66,7 @@ papers:
     title: 'Euclid Quick Data Release (Q1). The Euclid view on Planck galaxy protocluster candidates: towards a probe of the highest sites of star formation at cosmic noon'
     year: '2025'
   5TiVEDMAAAAJ:2l5NCbZemmgC:
-    citations: 9
+    citations: 11
     title: 'Euclid: Early Release Observations-The intracluster light of Abell 2390'
     year: '2025'
   5TiVEDMAAAAJ:2osOgNQ5qMEC:
@@ -75,8 +79,8 @@ papers:
     year: '2024'
   5TiVEDMAAAAJ:2v_ZtQDX9iAC:
     citations: 4
-    title: Euclid Quick Data Release (Q1) XIII. Exploring galaxy properties with a multi-modal foundation model
-    year: '2026'
+    title: Euclid Quick Data Release (Q1) Exploring galaxy properties with a multi-modal foundation model
+    year: '2025'
   5TiVEDMAAAAJ:37UQlXuwjP4C:
     citations: 2
     title: 'Euclid: methodology for derivation of IPC-corrected conversion gain of nonlinear CMOS APS'
@@ -85,6 +89,10 @@ papers:
     citations: 0
     title: 'Euclid preparation. Non-Gaussianity of 2-pt statistics likelihood: Parameter inference with a non-Gaussian likelihood in Fourier and configuration space'
     year: '2026'
+  5TiVEDMAAAAJ:3MwzVuqRcA0C:
+    citations: 0
+    title: Euclid preparation
+    year: '2025'
   5TiVEDMAAAAJ:3_LpOwP6eMYC:
     citations: 0
     title: 'LXXIII. Spatially resolved stellar populations of local galaxies with Euclid: A proof of concept using synthetic images with the TNG50 simulation'
@@ -93,6 +101,10 @@ papers:
     citations: 11
     title: Euclid preparation-LXVIII. Extracting physical parameters from galaxies with machine learning
     year: '2025'
+  5TiVEDMAAAAJ:3vbIHxFL9FgC:
+    citations: 0
+    title: Euclid
+    year: '2024'
   5TiVEDMAAAAJ:43bX7VzcjpAC:
     citations: 22
     title: Euclid preparation-LVIII. Detecting extragalactic globular clusters in the Euclid survey
@@ -106,11 +118,11 @@ papers:
     title: "Hybrid P\u2113(k): general, unified, non-linear matter power spectrum  in redshift space"
     year: '2020'
   5TiVEDMAAAAJ:4X0JR2_MtJMC:
-    citations: 6
+    citations: 5
     title: Euclid preparation-XLVII. Improving cosmological constraints using a new multi-tracer method with the spectroscopic and photometric samples
     year: '2024'
   5TiVEDMAAAAJ:4fGpz3EwCPoC:
-    citations: 22
+    citations: 23
     title: "Euclid preparation-XX. The Complete Calibration of the Color\u2013Redshift Relation survey: LBT observations and data release"
     year: '2022'
   5TiVEDMAAAAJ:4n0clTBhZ78C:
@@ -122,11 +134,11 @@ papers:
     title: Euclid preparation-XXXVI. Modelling the weak lensing angular power spectrum
     year: '2024'
   5TiVEDMAAAAJ:4xDN1ZYqzskC:
-    citations: 70
+    citations: 72
     title: "Euclid: Early Release Observations\u2013Dwarf galaxies in the Perseus galaxy cluster"
     year: '2025'
   5TiVEDMAAAAJ:5MTHONV0fEkC:
-    citations: 14
+    citations: 15
     title: 'Euclid: Identifying the reddest high-redshift galaxies in the Euclid Deep Fields with gradient-boosted trees'
     year: '2024'
   5TiVEDMAAAAJ:5qfkUJPXOUwC:
@@ -138,11 +150,11 @@ papers:
     title: 'Euclid: Scaled-up little red dots and other sources with v-shaped spectral energy distributions at z> 4'
     year: '2026'
   5TiVEDMAAAAJ:65Yg0jNCQDAC:
-    citations: 10
+    citations: 11
     title: 'Euclid Quick Data Release (Q1) VI. From spectrograms to spectra: The SIR spectroscopic processing function'
     year: '2026'
   5TiVEDMAAAAJ:69ZgNCALVd0C:
-    citations: 4
+    citations: 5
     title: 'Euclid Quick Data Release (Q1): The Strong Lensing Discovery Engine A--System overview and lens catalogue'
     year: '2025'
   5TiVEDMAAAAJ:6ZxmRoH8BuwC:
@@ -162,15 +174,15 @@ papers:
     title: 'Euclid: Relativistic effects in the dipole of the two-point correlation function'
     year: '2025'
   5TiVEDMAAAAJ:6yz0xqPARnAC:
-    citations: 26
-    title: Euclid preparation-LIII. LensMC, weak lensing cosmic shear measurement with forward modelling and Markov Chain Monte Carlo sampling
+    citations: 28
+    title: 'Euclid preparation: LIII. LensMC, weak lensing cosmic shear measurement with forward modelling and Markov Chain Monte Carlo sampling'
     year: '2024'
   5TiVEDMAAAAJ:7Frjd3zlGBUC:
     citations: 0
     title: 'arXiv: Euclid preparation. Review of forecast constraints on dark energy and modified gravity'
     year: '2025'
   5TiVEDMAAAAJ:7H_MAutzIkAC:
-    citations: 15
+    citations: 16
     title: Euclid preparation-LIX. Angular power spectra from discrete observations
     year: '2025'
   5TiVEDMAAAAJ:7H_jS4BsgvYC:
@@ -194,7 +206,7 @@ papers:
     title: 'Euclid Quick Data Release (Q1), A first look at the fraction of bars in massive galaxies at '
     year: '2025'
   5TiVEDMAAAAJ:8d8msizDQcsC:
-    citations: 34
+    citations: 37
     title: Euclid preparation-XXII. Selection of quiescent galaxies from mock photometry using machine learning
     year: '2023'
   5TiVEDMAAAAJ:8xutWZnSdmoC:
@@ -205,6 +217,10 @@ papers:
     citations: 0
     title: "Euclid: From Galaxies to Gravitational Waves\u2013Forecasting Stochastic Gravitational Wave Background Anisotropies and Their Cross-Correlation"
     year: '2025'
+  5TiVEDMAAAAJ:9LpHyFPp1DQC:
+    citations: 0
+    title: Euclid preparation
+    year: '2024'
   5TiVEDMAAAAJ:9NZAP19TdFAC:
     citations: 0
     title: 'Euclid: Early Release Observations--The extended stellar component of the IC10 dwarf galaxy'
@@ -214,9 +230,9 @@ papers:
     title: Parallel transport on a manifold
     year: '2011'
   5TiVEDMAAAAJ:9c2xU6iGI7YC:
-    citations: 34
-    title: 'Euclid: Constraining linearly scale-independent modifications of gravity with the spectroscopic and photometric primary probes'
-    year: '2024'
+    citations: 37
+    title: 'arXiv: Euclid: Constraining linearly scale-independent modifications of gravity with the spectroscopic and photometric primary probes'
+    year: '2023'
   5TiVEDMAAAAJ:9shLKfS_uJEC:
     citations: 0
     title: "Euclid: A blue galaxy population and a brightest cluster galaxy in the making in a z\u2004\u223C\u20041.74 MaDCoWS2 galaxy cluster candidate"
@@ -230,12 +246,12 @@ papers:
     title: Euclid
     year: '2025'
   5TiVEDMAAAAJ:AFmTUeZ1pmEC:
-    citations: 27
+    citations: 30
     title: Euclid Quick Data Release (Q1) III. NIR processing and data products
     year: '2026'
   5TiVEDMAAAAJ:ALROH1vI_8AC:
-    citations: 912
-    title: 'Galactic warps: From cosmic noon to the current epoch L1'
+    citations: 935
+    title: Euclid. I. Overview of the Euclid mission
     year: '2025'
   5TiVEDMAAAAJ:AXkvAH5U_nMC:
     citations: 0
@@ -274,11 +290,11 @@ papers:
     title: 'Euclid: Exploring observational systematics in cluster cosmology--a comprehensive analysis of cluster counts and clustering'
     year: '2025'
   5TiVEDMAAAAJ:BUYA1_V_uYcC:
-    citations: 101
+    citations: 102
     title: 'Emulators for the nonlinear matter power spectrum beyond '
     year: '2019'
   5TiVEDMAAAAJ:Bg7qf7VwUHIC:
-    citations: 266
+    citations: 267
     title: Astronomy & astrophysics, 616
     year: '2018'
   5TiVEDMAAAAJ:Br1UauaknNIC:
@@ -290,11 +306,11 @@ papers:
     title: 'Euclid: Galaxy morphology and photometry from bulge-disc decomposition of Early Release Observations'
     year: '2025'
   5TiVEDMAAAAJ:BwyfMAYsbu0C:
-    citations: 57
+    citations: 58
     title: 'Euclid: The reduced shear approximation and magnification bias for Stage IV cosmic shear experiments'
     year: '2020'
   5TiVEDMAAAAJ:CB2v5VPnA5kC:
-    citations: 8
+    citations: 9
     title: "Euclid preparation-LXXI. Simulations and nonlinearities beyond \u039BCDM. 3. Constraints on f (R) models from the photometric primary probes"
     year: '2025'
   5TiVEDMAAAAJ:CNPyR2KL9-0C:
@@ -306,19 +322,19 @@ papers:
     title: "Euclid Quick Data Release (Q1). Combined Euclid and Spitzer galaxy density catalogues at $ z> $1.3 and detection of significant Euclid passive galaxy overdensities in Spitzer \u2026"
     year: '2025'
   5TiVEDMAAAAJ:CaZNVDsoPx4C:
-    citations: 31
+    citations: 33
     title: "Euclid: Early Release Observations\u2013A preview of the Euclid era through a galaxy cluster magnifying lens"
     year: '2025'
   5TiVEDMAAAAJ:CdxZDUztZiMC:
-    citations: 4
+    citations: 5
     title: DESI forecast for dark matter-neutrino interactions using EFTofLSS
-    year: '2025'
+    year: '2024'
   5TiVEDMAAAAJ:ClCfbGk0d_YC:
     citations: 19
     title: 'Cosmological tests of gravity: a future perspective'
     year: '2021'
   5TiVEDMAAAAJ:DJbcl8HfkQkC:
-    citations: 18
+    citations: 20
     title: Euclid preparation-xxxiii. Characterization of convolutional neural networks for the identification of galaxy-galaxy strong-lensing events
     year: '2024'
   5TiVEDMAAAAJ:DXE8ND7PrJAC:
@@ -330,7 +346,7 @@ papers:
     title: Euclid. II. The VIS Instrument
     year: '2025'
   5TiVEDMAAAAJ:Dem6FJhTUoYC:
-    citations: 30
+    citations: 29
     title: 'Euclid: Searches for strong gravitational lenses using convolutional neural nets in Early Release Observations of the Perseus field'
     year: '2025'
   5TiVEDMAAAAJ:Dip1O2bNi0gC:
@@ -342,7 +358,7 @@ papers:
     title: Euclid Quick Data Release (Q1). Exploring galaxy morphology across cosmic time through Sersic fits
     year: '2025'
   5TiVEDMAAAAJ:DyXnQzXoVgIC:
-    citations: 0
+    citations: 10
     title: Euclid Quick Data Release (Q1). The active galaxies of Euclid
     year: '2025'
   5TiVEDMAAAAJ:E7VqQtBCVmcC:
@@ -350,7 +366,7 @@ papers:
     title: "Euclid: Early Release Observations \u2013 Deep anatomy of nearby galaxies"
     year: Unknown Year
   5TiVEDMAAAAJ:EBV337fEn3EC:
-    citations: 9
+    citations: 10
     title: Euclid Quick Data Release (Q1) XVI. Optical and near-infrared identification and classification of point-like X-ray selected sources
     year: '2026'
   5TiVEDMAAAAJ:EaFouW7jFu4C:
@@ -371,14 +387,14 @@ papers:
     year: '2024'
   5TiVEDMAAAAJ:F2UWTTQJPOcC:
     citations: 3
-    title: Euclid preparation. 3-dimensional galaxy clustering in configuration space. Part I. 2-point correlation function estimation
+    title: 'Euclid preparation-LXXII. Three-dimensional galaxy clustering in configuration space: Two-point correlation function estimation'
     year: '2025'
   5TiVEDMAAAAJ:F9fV5C73w3QC:
     citations: 31
     title: Euclid preparation-XLI. Galaxy power spectrum modelling in real space
     year: '2024'
   5TiVEDMAAAAJ:FAceZFleit8C:
-    citations: 69
+    citations: 68
     title: "Euclid preparation-XXIV. Calibration of the halo mass function in \u039B (\u03BD) CDM cosmologies"
     year: '2023'
   5TiVEDMAAAAJ:FsLZdJ3BAzkC:
@@ -386,15 +402,19 @@ papers:
     title: Euclid preparation. 3D reconstruction of the cosmic web with simulated Euclid Deep spectroscopic samples
     year: '2026'
   5TiVEDMAAAAJ:GFxP56DSvIMC:
-    citations: 46
-    title: Euclid preparation-XXXII. Evaluating the weak-lensing cluster mass biases using the Three Hundred Project hydrodynamical simulations
+    citations: 48
+    title: 'Euclid preparation: XXXII. Evaluating the weak-lensing cluster mass biases using the Three Hundred Project hydrodynamical simulations'
     year: '2024'
   5TiVEDMAAAAJ:GYcXSSpN504C:
     citations: 0
     title: 'cloelike: A Python Library for Cosmological Likelihood Inference in the Euclid Era'
     year: '2026'
+  5TiVEDMAAAAJ:Gpwnp1kGG20C:
+    citations: 0
+    title: Euclidpreparation
+    year: '2023'
   5TiVEDMAAAAJ:GtLg2Ama23sC:
-    citations: 63
+    citations: 66
     title: "Euclid preparation \u2013 XXIII. Derivation of galaxy physical properties with deep machine learning using mock fluxes and H-band images"
     year: '2023'
   5TiVEDMAAAAJ:H7nrzBkawXsC:
@@ -403,15 +423,15 @@ papers:
     year: '2023'
   5TiVEDMAAAAJ:HGTzPopzzJcC:
     citations: 7
-    title: "Euclid preparation: TBD. The impact of line-of-sight projections on the covariance between galaxy cluster multi-wavelength observable properties--insights from hydrodynamic \u2026"
-    year: '2024'
+    title: "Euclid preparation. LXVI. Impact of line-of-sight projections on the covariance between galaxy cluster multi-wavelength observable properties. Insights from hydrodynamic \u2026"
+    year: '2025'
   5TiVEDMAAAAJ:HIFyuExEbWQC:
     citations: 0
     title: 'VizieR Online Data Catalog: Euclid prep. XXVII. UV-NIR spectral atlas (Euclid Coll., 2023)'
     year: '2023'
   5TiVEDMAAAAJ:HJSXoJQnj-YC:
-    citations: 9
-    title: Euclid Quick Data Release (Q1) XXIV. Extending the quest for little red dots to z < 4
+    citations: 11
+    title: 'Euclid Quick Data Release (Q1): XXIV. Extending the quest for little red dots to z< 4'
     year: '2026'
   5TiVEDMAAAAJ:Hck25ST_3aIC:
     citations: 19
@@ -430,7 +450,7 @@ papers:
     title: Euclid. Properties and performance of the NISP signal estimator
     year: '2026'
   5TiVEDMAAAAJ:ILKRHgRFtOwC:
-    citations: 19
+    citations: 18
     title: "Euclid preparation-VIII. The complete calibration of the colour\u2013redshift relation survey: VLT/KMOS observations and data release"
     year: '2020'
   5TiVEDMAAAAJ:IRz6iEL74y4C:
@@ -470,19 +490,19 @@ papers:
     title: 'Euclid: The first statistical census of dusty and massive objects in the ERO/Perseus field'
     year: '2025'
   5TiVEDMAAAAJ:KTwcwpFFj4wC:
-    citations: 11
+    citations: 10
     title: Euclid preparation LVII. Observational expectations for redshift z< 7 active galactic nuclei in the Euclid Wide and Deep surveys
     year: '2025'
   5TiVEDMAAAAJ:KUbvn5osdkgC:
-    citations: 227
+    citations: 230
     title: "Euclid preparation: IX. EuclidEmulator2 \u2013 power spectrum emulation with massive neutrinos and self-consistent dark energy perturbations"
     year: '2021'
   5TiVEDMAAAAJ:KWzIFqRkAKkC:
-    citations: 6
+    citations: 7
     title: 'Euclid: An emulator for baryonic effects on the matter bispectrum'
     year: '2026'
   5TiVEDMAAAAJ:KbBQZpvPDL4C:
-    citations: 12
+    citations: 14
     title: Euclid preparation-XXXI. The effect of the variations in photometric passbands on photometric-redshift accuracy
     year: '2024'
   5TiVEDMAAAAJ:L1USKYWJimsC:
@@ -490,7 +510,7 @@ papers:
     title: Euclid preparation-LXIII. Simulations and non-linearities beyond Lambda cold dark matter. 2. Results from non-standard simulations
     year: '2025'
   5TiVEDMAAAAJ:LK8CI43ZvvMC:
-    citations: 1
+    citations: 2
     title: 'Euclid preparation: Expected constraints on initial conditions'
     year: '2025'
   5TiVEDMAAAAJ:LO7wyVUgiFcC:
@@ -498,7 +518,7 @@ papers:
     title: 'Euclid preparation-XXVI. The Euclid Morphology Challenge: Towards structural parameters for billions of galaxies'
     year: '2023'
   5TiVEDMAAAAJ:LgRImbQfgY4C:
-    citations: 11
+    citations: 12
     title: 'Euclid: Testing photometric selection of emission-line galaxy targets'
     year: '2024'
   5TiVEDMAAAAJ:LhH-TYMQEocC:
@@ -506,7 +526,7 @@ papers:
     title: "Euclid preparation-XLIV. Modelling spectroscopic clustering on mildly nonlinear scales in beyond-\u039BCDM models"
     year: '2024'
   5TiVEDMAAAAJ:M7yex6snE4oC:
-    citations: 27
+    citations: 26
     title: Euclid preparation-XII. Optimizing the photometric sample of the Euclid survey for galaxy clustering and galaxy-galaxy lensing analyses
     year: '2021'
   5TiVEDMAAAAJ:MDX3w3dAD3YC:
@@ -514,7 +534,7 @@ papers:
     title: Euclid preparation. First investigation of the impact of cross-contamination on spectroscopic redshift measurements with pixel-level simulations
     year: '2026'
   5TiVEDMAAAAJ:ML0RJ9NH7IQC:
-    citations: 491
+    citations: 490
     title: Euclid preparation-VII. Forecast validation for Euclid cosmological probes
     year: '2020'
   5TiVEDMAAAAJ:M_lZXyI38BkC:
@@ -522,7 +542,7 @@ papers:
     title: Euclid Quick Data Release (Q1). Near-infrared processing and data products
     year: '2025'
   5TiVEDMAAAAJ:MhiOAD_qIWkC:
-    citations: 45
+    citations: 47
     title: 'Euclid: the early release observations lens search experiment'
     year: '2025'
   5TiVEDMAAAAJ:NDuN12AVoxsC:
@@ -530,8 +550,8 @@ papers:
     title: 'VizieR Online Data Catalog: NGC 6397 Euclid/Gaia internal kinematics (Libralato+, 2024)'
     year: '2024'
   5TiVEDMAAAAJ:NMlhSUseqAsC:
-    citations: 18
-    title: 'Euclid: the potential of slitless infrared spectroscopy: a z = 5.4 quasar and new ultracool dwarfs'
+    citations: 21
+    title: 'Euclid: the potential of slitless infrared spectroscopy: a z= 5.4 quasar and new ultracool dwarfs'
     year: '2025'
   5TiVEDMAAAAJ:NXb4pA-qfm4C:
     citations: 19
@@ -541,12 +561,16 @@ papers:
     citations: 0
     title: 'Euclid preparation. Three-dimensional galaxy clustering in configuration space: Three-point correlation function estimation'
     year: '2026'
+  5TiVEDMAAAAJ:Nw_I7GeUguwC:
+    citations: 0
+    title: Euclid preparation
+    year: '2025'
   5TiVEDMAAAAJ:NxmKEeNBbOMC:
-    citations: 5
+    citations: 7
     title: Euclid preparation. Constraining parameterised models of modifications of gravity with the spectroscopic and photometric primary probes
     year: '2025'
   5TiVEDMAAAAJ:NyGDZy8z5eUC:
-    citations: 16
+    citations: 17
     title: Euclid preparation-XXXVIII. Spectroscopy of active galactic nuclei with NISP
     year: '2024'
   5TiVEDMAAAAJ:O0nohqN1r9EC:
@@ -556,13 +580,13 @@ papers:
   5TiVEDMAAAAJ:OBSaB-F7qqsC:
     citations: 13
     title: 'Euclid and KiDS-1000: Quantifying the impact of source-lens clustering on cosmic shear analyses'
-    year: '2025'
+    year: '2024'
   5TiVEDMAAAAJ:ODE9OILHJdcC:
     citations: 0
     title: XXI. Intermediate-redshift contaminants in the search for z> 6 galaxies within the Euclid Deep Survey (Corrigendum)
     year: '2022'
   5TiVEDMAAAAJ:OTTXONDVkokC:
-    citations: 20
+    citations: 19
     title: 'Euclid preparation-XXIX. Water ice in spacecraft Part I: The physics of ice formation and contamination'
     year: '2023'
   5TiVEDMAAAAJ:OcBU2YAGkTUC:
@@ -570,7 +594,7 @@ papers:
     title: 'Euclid: The search for primordial features'
     year: '2024'
   5TiVEDMAAAAJ:OzeSX8-yOCQC:
-    citations: 0
+    citations: 1
     title: 'Euclid preparation. Cosmology Likelihood for Observables in Euclid (CLOE). 6: Impact of systematic uncertainties on the cosmological analysis'
     year: '2025'
   5TiVEDMAAAAJ:PQEM9vzQD9gC:
@@ -578,7 +602,7 @@ papers:
     title: 'Euclid Quick Data Release (Q1): Euclid spectroscopy of QSOs. 1. Identification and redshift determination of 3500 bright QSOs'
     year: '2025'
   5TiVEDMAAAAJ:PVgj2kMGcgYC:
-    citations: 60
+    citations: 62
     title: Euclid preparation-LIV. Sensitivity to neutrino parameters
     year: '2025'
   5TiVEDMAAAAJ:PYBJJbyH-FwC:
@@ -590,7 +614,7 @@ papers:
     title: Euclid Quick Data Release (Q1) IX. First visual morphology catalogue
     year: '2026'
   5TiVEDMAAAAJ:PoWvk5oyLR8C:
-    citations: 63
+    citations: 64
     title: Euclid preparation-XVI. Exploring the ultra-low surface brightness Universe with Euclid/VIS
     year: '2022'
   5TiVEDMAAAAJ:PuOEWVtPfzwC:
@@ -598,7 +622,7 @@ papers:
     title: 'Euclid: Photometric redshift calibration performance with the clustering-redshifts technique in the Flagship 2 simulation'
     year: Unknown Year
   5TiVEDMAAAAJ:QD3KBmkZPeQC:
-    citations: 95
+    citations: 99
     title: "Euclid: Early Release Observations\u2013Programme overview and pipeline for compact-and diffuse-emission photometry"
     year: '2025'
   5TiVEDMAAAAJ:QYdC8u9Cj1oC:
@@ -626,7 +650,7 @@ papers:
     title: '\textit {Euclid}: From Galaxies to Gravitational Waves--Forecasting Stochastic Gravitational Wave Background Anisotropies and Their Cross-Correlation'
     year: '2025'
   5TiVEDMAAAAJ:R22Rs3tN8aoC:
-    citations: 5
+    citations: 6
     title: 'Euclid preparation: LXXXIII. The impact of redshift interlopers on the two-point correlation function analysis'
     year: '2026'
   5TiVEDMAAAAJ:RJOyoaXV5v8C:
@@ -640,7 +664,7 @@ papers:
   5TiVEDMAAAAJ:Ri6SYOTghG4C:
     citations: 0
     title: Testing fundamental cosmological assumptions with Euclid
-    year: '2021'
+    year: '2020'
   5TiVEDMAAAAJ:RoXSNcbkSzsC:
     citations: 4
     title: 'Euclid: Detecting Solar System objects in Euclid images and classifying them using Kohonen self-organising maps'
@@ -661,6 +685,10 @@ papers:
     citations: 4
     title: Euclid
     year: '2025'
+  5TiVEDMAAAAJ:T8_be82Iz5gC:
+    citations: 0
+    title: Euclid preparation
+    year: '2024'
   5TiVEDMAAAAJ:TGkaJS32XoUC:
     citations: 0
     title: "Euclid: Optimising tomographic redshift binning for 3 \xD7 2 pt power spectrum constraints on dark energy"
@@ -674,15 +702,19 @@ papers:
     title: 'Euclid: Photometric redshift calibration with the clustering redshifts technique'
     year: '2025'
   5TiVEDMAAAAJ:TaaCk18tZOkC:
-    citations: 6
+    citations: 7
     title: 'Euclid: Photometric redshift calibration with self-organising maps'
     year: '2026'
   5TiVEDMAAAAJ:TesyEGJKHF4C:
     citations: 1
     title: Euclid preparation
     year: '2025'
+  5TiVEDMAAAAJ:Tfl4UtY-dJUC:
+    citations: 0
+    title: Euclid preparation
+    year: '2025'
   5TiVEDMAAAAJ:TlpoogIpr_IC:
-    citations: 4
+    citations: 6
     title: Euclid Quick Data Release (Q1) XXXIII. The first catalogue of strong-lensing galaxy clusters
     year: '2026'
   5TiVEDMAAAAJ:U0iAMwwPxtsC:
@@ -702,13 +734,13 @@ papers:
     title: 'Euclid: Early Release Observations of diffuse stellar structures and globular clusters as probes of the mass assembly of galaxies in the Dorado group'
     year: '2025'
   5TiVEDMAAAAJ:UmS_249rOGwC:
-    citations: 2
+    citations: 4
     title: Euclid Quick Data Release (Q1) XXII. An investigation of optically faint, red objects in the Euclid Deep Fields
     year: '2026'
   5TiVEDMAAAAJ:UuEBAcK4md4C:
-    citations: 3
-    title: Euclid Quick Data Release (Q1) X. A census of dwarf galaxies across a range of distances and environments
-    year: '2026'
+    citations: 4
+    title: 'Euclid: Quick Data Release (Q1)--A census of dwarf galaxies across a range of distances and environments'
+    year: '2025'
   5TiVEDMAAAAJ:VRfTbSk87rEC:
     citations: 0
     title: "LXXI. Simulations and nonlinearities beyond \u039BCDM. 3. Constraints on f (R) models from the photometric primary probes"
@@ -722,15 +754,15 @@ papers:
     title: Euclid preparation. Cosmology Likelihood for Observables in Euclid (CLOE). 2. Code implementation
     year: '2026'
   5TiVEDMAAAAJ:Vr2j17o0sqMC:
-    citations: 3
-    title: "Euclid: Early Release Observations \u2013 A combined strong and weak lensing solution for Abell 2390 beyond its virial radius"
+    citations: 4
+    title: "Euclid: Early Release Observations\u2013A combined strong and weak lensing solution for Abell 2390 beyond its virial radius"
     year: '2026'
   5TiVEDMAAAAJ:WC23djZS0W4C:
     citations: 1
     title: 'Euclid: The Early Release Observations Lens Search Experiment.'
     year: '2025'
   5TiVEDMAAAAJ:WHdLCjDvYFkC:
-    citations: 15
+    citations: 16
     title: "Euclid preparation-LXI. Cosmic Dawn Survey:\u2018Pre-launch\u2019multiwavelength catalogues for Euclid Deep Field North and Euclid Deep Field Fornax"
     year: '2025'
   5TiVEDMAAAAJ:WWeOtg8bX_EC:
@@ -746,7 +778,7 @@ papers:
     title: Euclid preparation-LXIX. The impact of relativistic redshift-space distortions on two-point clustering statistics from the Euclid wide spectroscopic survey
     year: '2025'
   5TiVEDMAAAAJ:X0DADzN9RKwC:
-    citations: 3
+    citations: 2
     title: 'CLAPP: The CLASS LLM Agent for Pair Programming'
     year: '2025'
   5TiVEDMAAAAJ:X4-KO54GjGYC:
@@ -766,11 +798,11 @@ papers:
     title: Euclid preparation. Impact of redshift distribution uncertainties on the joint analysis of photometric galaxy clustering and weak gravitational lensing
     year: '2026'
   5TiVEDMAAAAJ:XUvXOeBm_78C:
-    citations: 4
-    title: Euclid preparation-LXVII. Deep learning true galaxy morphologies for weak lensing shear bias calibration
+    citations: 5
+    title: 'Euclid preparation: LXVII. Deep learning true galaxy morphologies for weak lensing shear bias calibration'
     year: '2025'
   5TiVEDMAAAAJ:Xl6nMSl579sC:
-    citations: 11
+    citations: 13
     title: 'Euclid Quick Data Release (Q1) XXIX. The strong-lensing discovery engine D: Double-source-plane lens candidates'
     year: '2026'
   5TiVEDMAAAAJ:XoXfffV-tXoC:
@@ -778,7 +810,7 @@ papers:
     title: 'Euclid preparation-XVII. Cosmic Dawn Survey: Spitzer Space Telescope observations of the Euclid deep fields and calibration fields'
     year: '2022'
   5TiVEDMAAAAJ:Xz60mAmATU4C:
-    citations: 3
+    citations: 4
     title: Euclid Quick Data Release (Q1) XV. A probabilistic classification of quenched galaxies
     year: '2026'
   5TiVEDMAAAAJ:Y0-TYkg6YM4C:
@@ -796,13 +828,13 @@ papers:
   5TiVEDMAAAAJ:YTuZlYwrTOUC:
     citations: 2
     title: 'Euclid: Early Release Observations. Weak gravitational lensing analysis of Abell 2390'
-    year: '2025'
+    year: '2026'
   5TiVEDMAAAAJ:YlPif8NxrbYC:
-    citations: 5
+    citations: 0
     title: Euclid Quick Data Release (Q1) XI. A first look at the fraction of bars in massive galaxies at z < 1
     year: '2026'
   5TiVEDMAAAAJ:YohjEiUPhakC:
-    citations: 818
+    citations: 831
     title: Euclid preparation-I. The Euclid wide survey
     year: '2022'
   5TiVEDMAAAAJ:Zh0EY9V9P6UC:
@@ -814,7 +846,7 @@ papers:
     title: J/A+ A/642/A192 C3R2-KMOS zsp & galaxy physical properties (Euclid Coll., 2020)
     year: '2020'
   5TiVEDMAAAAJ:ZzlSgRqYykMC:
-    citations: 6
+    citations: 7
     title: Euclid preparation-XLVI. The near-infrared background dipole experiment with Euclid
     year: '2024'
   5TiVEDMAAAAJ:_5tno0g5mFcC:
@@ -838,8 +870,8 @@ papers:
     title: Euclid Preparation. TBD. Galaxy colour selections with Euclid and ground photometry for cluster weak-lensing analyses
     year: '2023'
   5TiVEDMAAAAJ:a9-T7VOCCH8C:
-    citations: 113
-    title: Euclid preparation-XXVIII. Forecasts for ten different higher-order weak lensing statistics
+    citations: 116
+    title: Euclid Preparation. XXVIII. Forecasts for ten different higher-order weak lensing statistics
     year: '2023'
   5TiVEDMAAAAJ:aDl3D7KC1E4C:
     citations: 0
@@ -850,11 +882,11 @@ papers:
     title: 'Euclid: The linear-construction covariance and cosmology'
     year: '2026'
   5TiVEDMAAAAJ:aIdbFUkbNIkC:
-    citations: 2
+    citations: 4
     title: Euclid Quick Data Release (Q1) XIX. First study of red quasars selection
     year: '2026'
   5TiVEDMAAAAJ:anf4URPfarAC:
-    citations: 42
+    citations: 43
     title: 'Euclid preparation-xxv. the euclid morphology challenge: Towards model-fitting photometry for billions of galaxies'
     year: '2023'
   5TiVEDMAAAAJ:as0KMg8qHbkC:
@@ -874,15 +906,15 @@ papers:
     title: Euclid preparation. Galaxy power spectrum modelling in redshift space
     year: '2026'
   5TiVEDMAAAAJ:bXQfdp6S9ecC:
-    citations: 7
+    citations: 8
     title: "Euclid Quick Data Release (Q1) XXVII. The Strong Lensing Discovery Engine B\u2013Early strong lens candidates from visual inspection of high-velocity dispersion galaxies"
     year: '2026'
   5TiVEDMAAAAJ:buQ7SEKw-1sC:
-    citations: 66
+    citations: 68
     title: "Euclid: Early Release Observations \u2013 The intracluster light and intracluster globular clusters of the Perseus cluster"
     year: '2025'
   5TiVEDMAAAAJ:bz8QjSJIRt4C:
-    citations: 24
+    citations: 22
     title: Euclid preparation-XXI. Intermediate-redshift contaminants in the search for z> 6 galaxies within the Euclid Deep Survey
     year: '2022'
   5TiVEDMAAAAJ:c59VksA5Vz4C:
@@ -894,7 +926,7 @@ papers:
     title: 'Euclid Quick Data Release (Q1): The impact of AGN emission on SED-derived physical properties'
     year: '2026'
   5TiVEDMAAAAJ:cRMvf6lLvU8C:
-    citations: 4
+    citations: 5
     title: Euclid Quick Data Release (Q1) XXXIV. First detections from the Euclid galaxy cluster workflow
     year: '2026'
   5TiVEDMAAAAJ:c_xDhezhKKUC:
@@ -905,10 +937,6 @@ papers:
     citations: 0
     title: 'Euclid: Optimising tomographic redshift binning for 32pt power spectrum constraints on dark energy'
     year: '2025'
-  5TiVEDMAAAAJ:d4tt_xEv1X8C:
-    citations: 0
-    title: "Euclid: A UV-faint quasar in a highly luminous star-forming host galaxy at z\u2004\u2248\u20047.7"
-    year: '2026'
   5TiVEDMAAAAJ:dAp6zn-oMfAC:
     citations: 1
     title: Cosmology Likelihood for Observables in\Euclid (CLOE). 1. Theoretical recipe
@@ -918,11 +946,11 @@ papers:
     title: 'Euclid preparation: LXXXVIII. 3D reconstruction of the cosmic web with Euclid Deep spectroscopic samples'
     year: '2026'
   5TiVEDMAAAAJ:epqYDVWIO7EC:
-    citations: 55
+    citations: 56
     title: Scale-invariant alternatives to general relativity. III. The inflation-dark energy connection
     year: '2019'
   5TiVEDMAAAAJ:fFSKOagxvKUC:
-    citations: 14
+    citations: 16
     title: "Euclid preparation-LII. Forecast impact of super-sample covariance on 3\xD7 2pt analysis with Euclid"
     year: '2024'
   5TiVEDMAAAAJ:fbc8zXXH2BUC:
@@ -930,23 +958,23 @@ papers:
     title: Euclid preparation-XLV. Optical emission-line predictions of intermediate-z galaxy populations in GAEA for the Euclid Deep and Wide Surveys
     year: '2024'
   5TiVEDMAAAAJ:foquWX3nUaYC:
-    citations: 82
+    citations: 84
     title: Euclid preparation-XIX. Impact of magnification on photometric galaxy clustering
     year: '2022'
   5TiVEDMAAAAJ:g3aElNc5_aQC:
-    citations: 164
+    citations: 169
     title: Euclid preparation-X. The Euclid photometric-redshift challenge
     year: '2020'
   5TiVEDMAAAAJ:g5Ck-dwhA_QC:
     citations: 8
-    title: Euclid preparation LXX. Forecasting detection limits for intracluster light in the Euclid Wide Survey
+    title: Euclid preparation-LXX. Forecasting detection limits for intracluster light in the Euclid Wide Survey
     year: '2025'
   5TiVEDMAAAAJ:g8uWPOAv7ggC:
-    citations: 1
+    citations: 2
     title: "Euclid preparation: LXXXVI. Cosmic Dawn Survey: Evolution of the galaxy stellar mass function across 0.2 < z \u2264 6.5 measured over 10 square degrees"
     year: '2026'
   5TiVEDMAAAAJ:gKiMpY-AVTkC:
-    citations: 27
+    citations: 28
     title: 'CLASS-OneLoop: accurate and unbiased inference from spectroscopic galaxy surveys'
     year: '2024'
   5TiVEDMAAAAJ:gV6rEsy15s0C:
@@ -962,7 +990,7 @@ papers:
     title: 'Euclid Quick Data Release (Q1). AstroVink: A vision transformer approach to find strong gravitational lens systems'
     year: '2026'
   5TiVEDMAAAAJ:hCrLmN-GePgC:
-    citations: 138
+    citations: 139
     title: Testing screened modified gravity
     year: '2021'
   5TiVEDMAAAAJ:hGdtkIFZdKAC:
@@ -986,7 +1014,7 @@ papers:
     title: Euclid Quick Data Release (Q1). Searching for radio-selected\Euclid-dark galaxies in the EDF-N
     year: '2026'
   5TiVEDMAAAAJ:hvmnpdAuIbkC:
-    citations: 15
+    citations: 17
     title: Euclid Quick Data Release (Q1) XIV. A first view of the star-forming main sequence in the Euclid Deep Fields
     year: '2026'
   5TiVEDMAAAAJ:idthP5jqfYAC:
@@ -1001,6 +1029,10 @@ papers:
     citations: 0
     title: Euclid preparation. Cosmology Likelihood for Observables in Euclid (CLOE). 5. Extensions beyond the standard modelling of theoretical probes and systematic effects
     year: '2025'
+  5TiVEDMAAAAJ:inmFHauC9wsC:
+    citations: 0
+    title: Euclid preparation
+    year: '2025'
   5TiVEDMAAAAJ:ipzZ9siozwsC:
     citations: 0
     title: Dark Energy with Euclid
@@ -1014,11 +1046,11 @@ papers:
     title: Euclid Quick Data Release (Q1). A probabilistic classification of quenched galaxies
     year: '2025'
   5TiVEDMAAAAJ:jFemdcug13IC:
-    citations: 19
+    citations: 18
     title: 'Euclid: High-precision imaging astrometry and photometry from Early Release Observations-I. Internal kinematics of NGC6397 by combining Euclid and Gaia data'
     year: '2024'
   5TiVEDMAAAAJ:jL-93Qbq4QoC:
-    citations: 94
+    citations: 101
     title: 'Euclid-V. The Flagship galaxy mock catalogue: A comprehensive simulation for the Euclid mission'
     year: '2025'
   5TiVEDMAAAAJ:jSAVyFp_754C:
@@ -1027,22 +1059,22 @@ papers:
     year: '2026'
   5TiVEDMAAAAJ:jU7OWUQzBzMC:
     citations: 7
-    title: Euclid preparation-LXII. Simulations and non-linearities beyond Lambda cold dark matter. 1. Numerical methods and validation
+    title: Euclid preparation LXII. Simulations and non-linearities beyond Lambda cold dark matter. 1. Numerical methods and validation
     year: '2025'
   5TiVEDMAAAAJ:jgBuDB5drN8C:
-    citations: 55
+    citations: 57
     title: "Euclid: Early Release Observations\u2013Overview of the Perseus cluster and analysis of its luminosity and stellar mass functions"
     year: '2025'
   5TiVEDMAAAAJ:jmjb1lOE9QIC:
-    citations: 1
+    citations: 2
     title: Euclid preparation. Cosmology Likelihood for Observables in Euclid (CLOE). 3. Inference and Forecasts
     year: '2025'
   5TiVEDMAAAAJ:k8Z6L05lTy4C:
-    citations: 33
-    title: Euclid preparation-VI. Verifying the performance of cosmic shear experiments
+    citations: 32
+    title: 'Euclid preparation: VI. Verifying the performance of cosmic shear experiments'
     year: '2020'
   5TiVEDMAAAAJ:kF1pexMAQbMC:
-    citations: 3
+    citations: 4
     title: Euclid Preparation. TBD. Impact of magnification on spectroscopic galaxy clustering
     year: '2023'
   5TiVEDMAAAAJ:kUhpeDhEZMUC:
@@ -1058,7 +1090,7 @@ papers:
     title: Euclid Quick Data Release (Q1). Galaxy shapes and alignments in the cosmic web
     year: '2025'
   5TiVEDMAAAAJ:kh2fBNsKQNwC:
-    citations: 164
+    citations: 166
     title: Euclid preparation-XVIII. The NISP photometric system
     year: '2022'
   5TiVEDMAAAAJ:kzcSZmkxUKAC:
@@ -1066,31 +1098,27 @@ papers:
     title: "Euclid: The rb\u2212 M* relation as a function of redshift I. The 5\xD7 109 M\u2609 black hole in NGC 1272"
     year: '2024'
   5TiVEDMAAAAJ:l6Q3WhenKVUC:
-    citations: 11
+    citations: 13
     title: "Euclid Quick Data Release (Q1) VIII. Exploring galaxy morphology across cosmic time through S\xE9rsic fits"
     year: '2026'
   5TiVEDMAAAAJ:lK9BDNCuzFgC:
-    citations: 8
+    citations: 10
     title: Euclid Quick Data Release (Q1) XVIII. First Euclid statistical study of the active galactic nuclei contribution fraction
     year: '2026'
-  5TiVEDMAAAAJ:lYAcb2jw7qUC:
-    citations: 0
-    title: Euclid Quick Data Release (Q1). Extending the quest for little red dots to z< 4
-    year: '2025'
   5TiVEDMAAAAJ:lbI08cpqPnQC:
     citations: 0
     title: Euclid Quick Data Release (Q1). The Strong Lensing Discovery Engine F--Bright and low-redshift strong lenses
     year: '2026'
   5TiVEDMAAAAJ:lg2tdxc6qMwC:
-    citations: 1
+    citations: 0
     title: Euclid preparation. Review of forecast constraints on dark energy and modified gravity
     year: '2025'
   5TiVEDMAAAAJ:lgwcVrK6X84C:
-    citations: 13
+    citations: 14
     title: Euclid-IV. The NISP Calibration Unit
     year: '2025'
   5TiVEDMAAAAJ:lmc2jWPfTJgC:
-    citations: 38
+    citations: 39
     title: Euclid preparation-XI. Mean redshift determination from galaxy redshift probabilities for cosmic shear tomography
     year: '2021'
   5TiVEDMAAAAJ:m4fbC6XIj1kC:
@@ -1106,7 +1134,7 @@ papers:
     title: 'Euclid: Optimising tomographic redshift binning for 3 $2 pt power spectrum constraints on dark energy'
     year: '2025'
   5TiVEDMAAAAJ:mWEH9CqjF64C:
-    citations: 27
+    citations: 29
     title: Euclid Quick Data Release (Q1) V. Photometric redshifts and physical properties of galaxies through the PHZ processing function
     year: '2026'
   5TiVEDMAAAAJ:mel-f30kHHgC:
@@ -1130,8 +1158,12 @@ papers:
     title: Euclid preparation-LVI. Sensitivity to non-standard particle dark matter models
     year: '2025'
   5TiVEDMAAAAJ:nVrZBo8bIpAC:
-    citations: 29
+    citations: 30
     title: Euclid preparation-XLIII. Measuring detailed galaxy morphologies for Euclid with machine learning
+    year: '2024'
+  5TiVEDMAAAAJ:nWoA1JPTheMC:
+    citations: 0
+    title: Euclid preparation
     year: '2024'
   5TiVEDMAAAAJ:nZcligLrVowC:
     citations: 0
@@ -1146,11 +1178,11 @@ papers:
     title: 'arXiv: Euclid preparation. Galaxy power spectrum modelling in redshift space'
     year: '2026'
   5TiVEDMAAAAJ:nqdriD65xNoC:
-    citations: 2
+    citations: 3
     title: Euclid preparation-LXXIV. Euclidised observations of Hubble Frontier Fields and CLASH galaxy clusters
     year: '2025'
   5TiVEDMAAAAJ:nrtMV_XWKgEC:
-    citations: 68
+    citations: 69
     title: "Higgs-dilaton cosmology: An inflation\u2013dark-energy connection and forecasts for future galaxy surveys"
     year: '2018'
   5TiVEDMAAAAJ:oPLKW5k6eA4C:
@@ -1162,11 +1194,11 @@ papers:
     title: 'Euclid: Finding strong gravitational lenses in the early release observations using convolutional neural networks'
     year: '2025'
   5TiVEDMAAAAJ:oqD4_j7ulsYC:
-    citations: 12
+    citations: 16
     title: "Euclid Quick Data Release (Q1) XXVI. The Strong Lensing Discovery Engine A\u2013System overview and first lens sample"
     year: '2026'
   5TiVEDMAAAAJ:otzGkya1bYkC:
-    citations: 119
+    citations: 120
     title: Euclid-III. The NISP Instrument
     year: '2025'
   5TiVEDMAAAAJ:owLR8QvbtFgC:
@@ -1178,7 +1210,7 @@ papers:
     title: Euclid preparation. Predicting star-forming galaxy scaling relations with the spectral stacking code SpectraPyle
     year: '2025'
   5TiVEDMAAAAJ:pS0ncopqnHgC:
-    citations: 34
+    citations: 36
     title: Euclid Quick Data Release (Q1) II. VIS processing and data products
     year: '2026'
   5TiVEDMAAAAJ:pYKElYtJMmwC:
@@ -1202,7 +1234,7 @@ papers:
     title: "V\xEDdeo y ense\xF1anza"
     year: '1985'
   5TiVEDMAAAAJ:qjMakFHDy7sC:
-    citations: 74
+    citations: 75
     title: Linear and non-linear Modified Gravity forecasts with future surveys
     year: '2017'
   5TiVEDMAAAAJ:qsWQJNntlusC:
@@ -1210,15 +1242,19 @@ papers:
     title: 'arXiv: Euclid preparation. Probing galaxy evolution within cosmic voids in Euclid-like simulations'
     year: '2026'
   5TiVEDMAAAAJ:qwy9JoKyICEC:
-    citations: 7
+    citations: 5
     title: 'Euclid: Star clusters in IC 342, NGC 2403, and Holmberg II'
     year: '2025'
   5TiVEDMAAAAJ:rCNdntzdTkkC:
     citations: 0
     title: 'Euclid Quick Data Release (Q1). From spectrograms to spectra: The SIR spectroscopic processing function'
     year: '2026'
+  5TiVEDMAAAAJ:rFyVMFCKTwsC:
+    citations: 0
+    title: 'Euclid: Calibrating distances from surface brightness fluctuations with Early Release Observations of the Fornax cluster'
+    year: '2026'
   5TiVEDMAAAAJ:rHJHxKgnXwkC:
-    citations: 28
+    citations: 30
     title: Euclid preparation-XLII. A unified catalogue-level reanalysis of weak lensing by galaxy clusters in five imaging surveys
     year: '2024'
   5TiVEDMAAAAJ:rLGzs9wiiwIC:
@@ -1230,7 +1266,7 @@ papers:
     title: Euclid preparation. TBD. Forecast impact of super-sample covariance on 3x2pt analysis with Euclid
     year: '2023'
   5TiVEDMAAAAJ:r_AWSJRzSzQC:
-    citations: 20
+    citations: 21
     title: Euclid preparation-XL. Impact of magnification on spectroscopic galaxy clustering
     year: '2024'
   5TiVEDMAAAAJ:rbGdIwl2e6cC:
@@ -1246,7 +1282,7 @@ papers:
     title: Euclid preparation-XV. Forecasting cosmological constraints for the Euclid and CMB joint analysis
     year: '2022'
   5TiVEDMAAAAJ:ruyezt5ZtCIC:
-    citations: 65
+    citations: 66
     title: Euclid preparation-XIII. Forecasts for galaxy morphology with the Euclid Survey using deep generative models
     year: '2022'
   5TiVEDMAAAAJ:s85pQhAUCrAC:
@@ -1254,7 +1290,7 @@ papers:
     title: 'Euclid: Forecasts on CDM consistency tests with growth rate data'
     year: '2025'
   5TiVEDMAAAAJ:s9ia6_kGH2AC:
-    citations: 3
+    citations: 2
     title: Model-independent forecasts for the cosmological anisotropic stress from a combination of Euclid and DESI like surveys
     year: '2025'
   5TiVEDMAAAAJ:sA9dB-pw3HoC:
@@ -1266,7 +1302,7 @@ papers:
     title: Euclid Quick Data Release (Q1). First detections from the Euclid galaxy cluster workflow
     year: '2025'
   5TiVEDMAAAAJ:sJsF-0ZLhtgC:
-    citations: 19
+    citations: 20
     title: Stage-IV cosmic shear with Modified Gravity and model-independent screening
     year: '2024'
   5TiVEDMAAAAJ:sNmaIFBj_lkC:
@@ -1274,7 +1310,7 @@ papers:
     title: 'JAX-COSMO: An end-to-end differentiable and GPU accelerated cosmology library'
     year: '2023'
   5TiVEDMAAAAJ:silx2ntsSuwC:
-    citations: 9
+    citations: 10
     title: Euclid Quick Data Release (Q1)--Data release overview
     year: '2025'
   5TiVEDMAAAAJ:sszUF3NjhM4C:
@@ -1298,11 +1334,11 @@ papers:
     title: 'Euclid: Photometric redshift calibration with the clustering redshifts technique'
     year: '2025'
   5TiVEDMAAAAJ:tYavs44e6CUC:
-    citations: 76
+    citations: 77
     title: 'Euclid: Impact of non-linear and baryonic feedback prescriptions on cosmological parameter estimation from weak lensing cosmic shear'
     year: '2021'
   5TiVEDMAAAAJ:tuHXwOkdijsC:
-    citations: 17
+    citations: 18
     title: 'Euclid: Forecasts for -cut  Point Statistics'
     year: '2020'
   5TiVEDMAAAAJ:txeM2kYbVNMC:
@@ -1326,7 +1362,7 @@ papers:
     title: 'Euclid Quick Data Release (Q1): The geometry of dark matter halos from extragalactic streams'
     year: '2026'
   5TiVEDMAAAAJ:uDGL6kOW6j0C:
-    citations: 30
+    citations: 31
     title: "Euclid: Early Release Observations\u2013Unveiling the morphology of two Milky Way globular clusters out to their periphery"
     year: '2025'
   5TiVEDMAAAAJ:uUvzmPk0f8oC:
@@ -1338,7 +1374,7 @@ papers:
     title: Future constraints on the gravitational slip with the mass profiles of galaxy clusters
     year: '2019'
   5TiVEDMAAAAJ:ubry08Y2EpUC:
-    citations: 22
+    citations: 23
     title: "Euclid: Early Release Observations\u2013A glance at free-floating newborn planets in the \u03C3 Orionis cluster"
     year: '2025'
   5TiVEDMAAAAJ:v1_lew4L6wgC:
@@ -1346,7 +1382,7 @@ papers:
     title: "Euclid preparation TBD. Modelling spectroscopic clustering on mildly nonlinear scales in beyond-\u039B (Lambda) CDM models"
     year: '2023'
   5TiVEDMAAAAJ:vDZJ-YLwNdEC:
-    citations: 15
+    citations: 18
     title: Euclid preparation-XXXVII. Galaxy colour selections with Euclid and ground photometry for cluster weak-lensing analyses
     year: '2024'
   5TiVEDMAAAAJ:vVJNg6_NJEsC:
@@ -1366,19 +1402,19 @@ papers:
     title: 'arXiv: Euclid preparation. Non-Gaussianity of 2-pt statistics likelihood: Parameter inference with a non-Gaussian likelihood in Fourier and configuration space'
     year: '2026'
   5TiVEDMAAAAJ:w1MjKQ0l0TYC:
-    citations: 35
+    citations: 36
     title: 'Euclid: A complete Einstein ring in NGC 6505'
     year: '2025'
   5TiVEDMAAAAJ:w2UhwfzvF0QC:
     citations: 0
-    title: 'Euclid: A UV-faint quasar in a highly luminous star-forming host galaxy at '
+    title: "Euclid: A UV-faint quasar in a highly luminous star-forming host galaxy at z\u2004\u2248\u20047.7"
     year: '2026'
   5TiVEDMAAAAJ:wE-fMHVdjMkC:
     citations: 0
     title: Euclid Quick Data Release (Q1) Ultracool dwarfs in the Euclid Deep Field North
     year: '2025'
   5TiVEDMAAAAJ:wKETBy42zhYC:
-    citations: 16
+    citations: 18
     title: Euclid preparation-XLIX. Selecting active galactic nuclei using observed colours
     year: '2024'
   5TiVEDMAAAAJ:wLxue7F8ec0C:
@@ -1386,19 +1422,23 @@ papers:
     title: Inferring cosmological parameters from galaxy and dark sirens cross-correlation
     year: '2025'
   5TiVEDMAAAAJ:wMgC3FpKEyYC:
-    citations: 21
+    citations: 22
     title: "Euclid: Early Release Observations\u2013NISP-only sources and the search for luminous z= 6\u20138 galaxies"
     year: '2025'
   5TiVEDMAAAAJ:wSy_KLzO7YEC:
-    citations: 13
+    citations: 15
     title: 'Euclid: Photometric redshift calibration performance with the clustering-redshifts technique in the Flagship 2 simulation'
     year: '2025'
   5TiVEDMAAAAJ:wUn16MOA3RoC:
     citations: 0
     title: Euclid Quick Data Release (Q1). Spectroscopic unveiling of highly ionised lines at z= 2.48-3.88
     year: '2025'
+  5TiVEDMAAAAJ:wuD5JclIwkYC:
+    citations: 0
+    title: Euclid preparation LXXIV. Euclidised observations of Hubble Frontier Fields and CLASH galaxy clusters
+    year: '2025'
   5TiVEDMAAAAJ:wvYxNZNCP7wC:
-    citations: 13
+    citations: 16
     title: "Euclid Quick Data Release (Q1) XXVIII. The Strong Lensing Discovery Engine C\u2013Finding lenses with machine learning"
     year: '2026'
   5TiVEDMAAAAJ:wyM6WWKXmoIC:
@@ -1411,8 +1451,8 @@ papers:
     year: '2026'
   5TiVEDMAAAAJ:xm0LlTxljI0C:
     citations: 1
-    title: 'Euclid preparation: LXXXVII. Non-Gaussianity of two-point statistics likelihood: Precise analysis of the matter power spectrum distribution'
-    year: '2026'
+    title: 'Euclid preparation. Non-Gaussianity of 2-point statistics likelihood: Precise analysis of the matter power spectrum distribution'
+    year: '2025'
   5TiVEDMAAAAJ:xtoqd-5pKcoC:
     citations: 0
     title: 'CosmoAmautas: Astrophysics in the high school classroom'
@@ -1422,7 +1462,7 @@ papers:
     title: "Model-independent reconstruction of the linear anisotropic stress \u03B7"
     year: '2018'
   5TiVEDMAAAAJ:yFnVuubrUp4C:
-    citations: 24
+    citations: 25
     title: Euclid preparation-XXXIV. The effect of linear redshift-space distortions in photometric galaxy clustering and its cross-correlation with cosmic shear
     year: '2024'
   5TiVEDMAAAAJ:yIeBiWEAh44C:
@@ -1431,8 +1471,8 @@ papers:
     year: '2026'
   5TiVEDMAAAAJ:yY3RG6sOEgwC:
     citations: 0
-    title: 'Euclid preparation: The flat-sky approximation for the clustering of Euclid''s photometric galaxies'
-    year: '2025'
+    title: 'Euclid preparation: LXXXIV. The flat-sky approximation for the clustering of Euclids photometric galaxies'
+    year: '2026'
   5TiVEDMAAAAJ:yeL6HyUMUGUC:
     citations: 2
     title: 'Euclid preparation: LXXIX. Using mock low surface brightness dwarf galaxies to probe Euclid Wide Survey detection capabilities'
@@ -1446,7 +1486,7 @@ papers:
     title: Euclid preparation. Establishing the quality of the 2D reconstruction of the filaments of the cosmic web with DisPerSE using Euclid photometric redshifts
     year: '2025'
   5TiVEDMAAAAJ:zCSUwVk65WsC:
-    citations: 48
+    citations: 50
     title: "Euclid: Early Release Observations\u2013Globular clusters in the Fornax galaxy cluster, from dwarf galaxies to the intracluster field"
     year: '2025'
   5TiVEDMAAAAJ:zGdJYJv2LkUC:
@@ -1457,10 +1497,6 @@ papers:
     citations: 2
     title: Model-independent measures of gravity at large scales
     year: '2018'
-  5TiVEDMAAAAJ:zdjWy_NXXwUC:
-    citations: 10
-    title: 'Euclid Quick Data Release (Q1): XX. The active galaxies of Euclid'
-    year: '2026'
   5TiVEDMAAAAJ:ziOE8S1-AIUC:
     citations: 0
     title: Euclid preparation XLVI. The Near-IR Background Dipole Experiment with Euclid
