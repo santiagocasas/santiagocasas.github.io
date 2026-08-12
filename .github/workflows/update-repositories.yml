@@ -1,0 +1,101 @@
+name: Update Pinned GitHub Repositories
+
+on:
+  schedule:
+    - cron: "0 0 * * 0" # Sunday (pinned repos change rarely, weekly is enough)
+  workflow_dispatch:
+
+jobs:
+  update-repositories:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      # See CUSTOMIZE.md for details on how to set up PAT for triggering subsequent workflows
+      #        with:
+      #          token: ${{ secrets.PAT }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: |
+          echo "🔧 Installing dependencies..."
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Save current repositories.yml hash
+        id: before
+        run: |
+          echo "📦 Checking existing repositories.yml hash..."
+          if [ -f _data/repositories.yml ]; then
+            sha_before=$(sha256sum _data/repositories.yml | awk '{print $1}')
+            echo "sha_before=$sha_before" >> $GITHUB_OUTPUT
+            echo "📝 SHA before: $sha_before"
+          else
+            echo "sha_before=none" >> $GITHUB_OUTPUT
+            echo "📝 No existing repositories.yml file found."
+          fi
+
+      - name: Run pinned repositories update script
+        id: run_repositories_update
+        shell: bash
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set +e
+          echo "🚀 Running pinned repositories update script (single attempt)..."
+          start_time=$(date)
+          timeout 60 python bin/update_pinned_repos.py
+          status=$?
+          end_time=$(date)
+          if [ $status -eq 0 ]; then
+            echo "✅ Pinned repositories update succeeded (started at $start_time, ended at $end_time)."
+            echo "✅ Pinned repositories update succeeded." >> $GITHUB_STEP_SUMMARY
+          else
+            echo "❌ Pinned repositories update script failed with exit code $status (started at $start_time, ended at $end_time)."
+            echo "❌ Pinned repositories update script failed with exit code $status." >> $GITHUB_STEP_SUMMARY
+          fi
+          set -e
+
+      - name: Save new repositories.yml hash
+        id: after
+        run: |
+          echo "🔍 Checking updated repositories.yml hash..."
+          if [ -f _data/repositories.yml ]; then
+            sha_after=$(sha256sum _data/repositories.yml | awk '{print $1}')
+            echo "sha_after=$sha_after" >> $GITHUB_OUTPUT
+            echo "📝 SHA after: $sha_after"
+          else
+            echo "sha_after=none" >> $GITHUB_OUTPUT
+            echo "📝 repositories.yml was not created or is missing."
+          fi
+
+      - name: Report repositories.yml change in summary
+        run: |
+          echo "📋 Comparing repositories file hashes..."
+          if [ "${{ steps.before.outputs.sha_before }}" != "${{ steps.after.outputs.sha_after }}" ]; then
+            echo "✅ _data/repositories.yml was updated."
+            echo "✅ _data/repositories.yml was updated." >> $GITHUB_STEP_SUMMARY
+          else
+            echo "ℹ️ _data/repositories.yml was not changed."
+            echo "ℹ️ _data/repositories.yml was not changed." >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Configure Git
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          echo "🔧 Git configured."
+
+      - name: Commit and push if changed
+        run: |
+          git add _data/repositories.yml
+          git diff --staged --quiet || (
+            echo "📤 Committing and pushing changes..."
+            git commit -m "Update pinned GitHub repositories"
+            git push
+          )
