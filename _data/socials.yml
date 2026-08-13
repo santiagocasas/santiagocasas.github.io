@@ -9,5 +9,6 @@ github_username: santiagocasas
 x_username: sant87casas
 orcid_id: 0000-0002-4751-5138
 medium_username: santiagocasas
+# inspirehep_id: # your Inspire HEP author ID (enables the aggregate InspireHEP citation badge via al_citations)
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
