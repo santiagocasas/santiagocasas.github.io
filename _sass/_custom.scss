@@ -1,0 +1,13 @@
+// Local site override (new partial, not shadowing any al_folio_core file).
+//
+// Upstream al_folio_core 1.0.15's _sass/_components.scss sizes project cards
+// with `.projects .grid-sizer, .projects .grid-item { width: 250px; }` but
+// never sets overflow-wrap/word-break on `.card-title`, so a long unbroken
+// title word (e.g. "MetadataGraph:") can overflow the fixed 250px card
+// width. This partial is wired in via a local override of
+// `assets/css/main.scss` (added `@use "custom";`); keep in sync if
+// al_folio_core ships a fix upstream.
+.projects .grid-item .card-title {
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
