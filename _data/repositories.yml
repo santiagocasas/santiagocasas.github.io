@@ -1,10 +1,9 @@
 github_users:
-  - santiagocasas
-
+- santiagocasas
 github_repos:
-  - santiagocasas/Tutorials
-  - santiagocasas/clapp
-  - cloe-org/cloelib
-  - santiagocasas/cosmicfishpie
-  - santiagocasas/jax_cosmo
-  - santiagocasas/topo-cobaya
+- santiagocasas/Tutorials
+- santiagocasas/cosmicfishpie
+- santiagocasas/clapp
+- santiagocasas/topo-cobaya
+- santiagocasas/jax_cosmo
+- cloe-org/cloelib
