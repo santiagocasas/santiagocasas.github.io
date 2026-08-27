@@ -10,6 +10,13 @@ nav_order: 1
 <!-- _pages/publications.md -->
 <div class="publications">
 
-{% bibliography -f {{ site.scholar.bibliography }} %}
+<h2>Personal Publications</h2>
+{% bibliography -f {{ site.scholar.bibliography }} -q @*[keywords=personal] %}
+
+<h2>Euclid Publications with Santiago in the First 10 Authors</h2>
+{% bibliography -f {{ site.scholar.bibliography }} -q @*[keywords=euclid_core] %}
+
+<h2>Other Euclid Collaboration Publications</h2>
+{% bibliography -f {{ site.scholar.bibliography }} -q @*[keywords=euclid_collab] %}
 
 </div>
