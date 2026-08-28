@@ -11,3 +11,124 @@
   overflow-wrap: break-word;
   word-break: break-word;
 }
+
+// Collapsible publication sections
+.publications-section {
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.02);
+  padding: 1rem 1.5rem;
+  
+  h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    user-select: none;
+    
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
+}
+
+.publications-toggle {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  font-size: 1.2em;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: transform 0.2s ease, color 0.2s ease;
+  
+  &:hover {
+    color: var(--global-theme-color);
+  }
+  
+  &.collapsed {
+    transform: rotate(-90deg);
+  }
+}
+
+.publications-list {
+  display: block;
+}
+
+.publications-item {
+  display: none;
+  
+  &.show {
+    display: block;
+  }
+}
+
+.publications-year-header {
+  font-size: 1.1em;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  
+  &:first-child {
+    margin-top: 0;
+    border-top: none;
+  }
+  
+  // Years beyond the default cutoff stay visible (never display:none) but are
+  // individually collapsed; clicking them (or pressing Enter/Space) expands
+  // just that year. The ::after badge makes clear they aren't empty.
+  &.publications-year-collapsed,
+  &.publications-year-expanded {
+    cursor: pointer;
+    user-select: none;
+    
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
+  
+  &.publications-year-collapsed::after {
+    content: " \25B8 " attr(data-count) " more";
+    font-size: 0.8em;
+    font-weight: 400;
+    color: var(--global-theme-color);
+  }
+  
+  &.publications-year-expanded::after {
+    content: " \25BE";
+    font-size: 0.8em;
+    font-weight: 400;
+    color: var(--global-theme-color);
+  }
+}
+
+.publications-show-more {
+  display: none;
+  margin-top: 1rem;
+  text-align: center;
+  
+  &.show {
+    display: block;
+  }
+  
+  button {
+    background: var(--global-theme-color);
+    color: white;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    transition: opacity 0.2s ease;
+    
+    &:hover {
+      opacity: 0.85;
+    }
+  }
+}

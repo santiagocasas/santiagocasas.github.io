@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /security/
-title: digital identity
+title: digital ID
 description: Public X.509 certificates for verifying signed documents and S/MIME email.
 nav: true
 nav_order: 9

@@ -10,13 +10,196 @@ nav_order: 1
 <!-- _pages/publications.md -->
 <div class="publications">
 
-<h2>Personal Publications</h2>
-{% bibliography -f {{ site.scholar.bibliography }} -q @*[keywords=personal] %}
+<div class="publications-section" id="personal-section">
+  <h2>
+    Personal Publications
+    <button class="publications-toggle" aria-label="Toggle Personal Publications"></button>
+  </h2>
+  <div class="publications-list" id="personal-list">
+    {% bibliography -f {{ site.scholar.bibliography }} -q @*[keywords=personal] %}
+  </div>
+  <div class="publications-show-more" id="personal-more">
+    <button onclick="toggleSection('personal')">Show All</button>
+  </div>
+</div>
 
-<h2>Euclid Publications with Santiago in the First 10 Authors</h2>
-{% bibliography -f {{ site.scholar.bibliography }} -q @*[keywords=euclid_core] %}
+<div class="publications-section" id="euclid-core-section">
+  <h2>
+    Euclid Publications with Santiago in the First 10 Authors
+    <button class="publications-toggle" aria-label="Toggle Euclid Core Publications"></button>
+  </h2>
+  <div class="publications-list" id="euclid-core-list">
+    {% bibliography -f {{ site.scholar.bibliography }} -q @*[keywords=euclid_core] %}
+  </div>
+  <div class="publications-show-more" id="euclid-core-more">
+    <button onclick="toggleSection('euclid-core')">Show All</button>
+  </div>
+</div>
 
-<h2>Other Euclid Collaboration Publications</h2>
-{% bibliography -f {{ site.scholar.bibliography }} -q @*[keywords=euclid_collab] %}
+<div class="publications-section" id="euclid-collab-section">
+  <h2>
+    Other Euclid Collaboration Publications
+    <button class="publications-toggle" aria-label="Toggle Euclid Collaboration Publications"></button>
+  </h2>
+  <div class="publications-list" id="euclid-collab-list">
+    {% bibliography -f {{ site.scholar.bibliography }} -q @*[keywords=euclid_collab] %}
+  </div>
+  <div class="publications-show-more" id="euclid-collab-more">
+    <button onclick="toggleSection('euclid-collab')">Show All</button>
+  </div>
+</div>
 
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const sections = ['personal', 'euclid-core', 'euclid-collab'];
+  const itemsPerPage = 10;
+  
+  sections.forEach(section => {
+    initializeSection(section, itemsPerPage);
+  });
+});
+
+function initializeSection(sectionId, itemsPerPage) {
+  const listElement = document.getElementById(sectionId + '-list');
+  const moreButton = document.getElementById(sectionId + '-more');
+  const toggleButton = document.querySelector(`#${sectionId}-section .publications-toggle`);
+  const heading = document.querySelector(`#${sectionId}-section h2`);
+  
+  if (!listElement) return;
+  
+  // Get all year headers and their corresponding items
+  const yearHeaders = listElement.querySelectorAll('h2.bibliography');
+  let shownItems = 0;
+  let hiddenYears = false;
+
+  // Show complete years only (never split a year across shown/hidden) until
+  // the running total reaches itemsPerPage. Years beyond the cutoff keep their
+  // header VISIBLE (never display:none) but collapsed, with a "N more" badge
+  // and their own click handler so they can be expanded individually, in
+  // addition to the section-wide "Show All" button.
+  yearHeaders.forEach(yearHeader => {
+    // Find the <ol> that follows this year header
+    let ol = yearHeader.nextElementSibling;
+    if (ol && ol.tagName === 'OL') {
+      const items = ol.querySelectorAll('li');
+      const showThisYear = shownItems < itemsPerPage;
+
+      items.forEach(item => {
+        item.classList.add('publications-item');
+        if (showThisYear) item.classList.add('show');
+      });
+
+      yearHeader.classList.add('publications-year-header');
+
+      if (showThisYear) {
+        shownItems += items.length;
+      } else {
+        hiddenYears = true;
+        yearHeader.classList.add('publications-year-collapsed');
+        yearHeader.dataset.count = items.length;
+        yearHeader.setAttribute('tabindex', '0');
+        yearHeader.setAttribute('role', 'button');
+        yearHeader.setAttribute('aria-label', `Show ${items.length} more publications from this year`);
+
+        yearHeader.addEventListener('click', function() {
+          toggleYear(yearHeader, ol);
+        });
+        yearHeader.addEventListener('keydown', function(e) {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            toggleYear(yearHeader, ol);
+          }
+        });
+      }
+    }
+  });
+
+  // Show "Show All" button if any year was hidden
+  if (hiddenYears) {
+    moreButton.classList.add('show');
+  }
+  
+  // Add click handler to heading for collapsing
+  heading.addEventListener('click', function(e) {
+    if (e.target.classList.contains('publications-toggle')) return;
+    toggleCollapse(sectionId);
+  });
+  
+  // Add click handler to toggle button
+  toggleButton.addEventListener('click', function(e) {
+    e.stopPropagation();
+    toggleCollapse(sectionId);
+  });
+}
+
+// Expand/collapse a single year's items in place, toggling its badge/arrow.
+function toggleYear(yearHeader, ol) {
+  const items = ol.querySelectorAll('li');
+  const isExpanded = yearHeader.classList.contains('publications-year-expanded');
+
+  if (isExpanded) {
+    items.forEach(item => item.classList.remove('show'));
+    yearHeader.classList.remove('publications-year-expanded');
+    yearHeader.classList.add('publications-year-collapsed');
+  } else {
+    items.forEach(item => item.classList.add('show'));
+    yearHeader.classList.remove('publications-year-collapsed');
+    yearHeader.classList.add('publications-year-expanded');
+  }
+}
+
+function toggleSection(sectionId) {
+  const listElement = document.getElementById(sectionId + '-list');
+  const moreButton = document.getElementById(sectionId + '-more');
+
+  const isExpanded = moreButton.querySelector('button').textContent.includes('Show All');
+
+  // Only the years that started out beyond the default cutoff carry one of
+  // these two classes (collapsed or, if individually expanded by the user,
+  // expanded) - the default-visible years never get either class.
+  const collapsibleYears = listElement.querySelectorAll(
+    'h2.bibliography.publications-year-collapsed, h2.bibliography.publications-year-expanded'
+  );
+
+  collapsibleYears.forEach(yearHeader => {
+    const ol = yearHeader.nextElementSibling;
+    if (!ol || ol.tagName !== 'OL') return;
+    const items = ol.querySelectorAll('li');
+
+    if (isExpanded) {
+      items.forEach(item => item.classList.add('show'));
+      yearHeader.classList.remove('publications-year-collapsed');
+      yearHeader.classList.add('publications-year-expanded');
+    } else {
+      items.forEach(item => item.classList.remove('show'));
+      yearHeader.classList.remove('publications-year-expanded');
+      yearHeader.classList.add('publications-year-collapsed');
+    }
+  });
+
+  moreButton.querySelector('button').textContent = isExpanded ? 'Show Less' : 'Show All';
+}
+
+function toggleCollapse(sectionId) {
+  const section = document.getElementById(sectionId + '-section');
+  const listElement = document.getElementById(sectionId + '-list');
+  const moreButton = document.getElementById(sectionId + '-more');
+  const toggleButton = section.querySelector('.publications-toggle');
+  
+  const isCollapsed = toggleButton.classList.contains('collapsed');
+  
+  if (isCollapsed) {
+    // Expand
+    toggleButton.classList.remove('collapsed');
+    listElement.style.display = '';
+    moreButton.style.display = moreButton.classList.contains('show') ? 'block' : 'none';
+  } else {
+    // Collapse
+    toggleButton.classList.add('collapsed');
+    listElement.style.display = 'none';
+    moreButton.style.display = 'none';
+  }
+}
+</script>
