@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-26'
+  last_updated: '2026-08-28'
 papers:
   5TiVEDMAAAAJ:-6RzNnnwWf8C:
     citations: 0
@@ -126,7 +126,7 @@ papers:
     title: 'Euclid preparation: XXXVI. Modelling the weak lensing angular power spectrum'
     year: '2024'
   5TiVEDMAAAAJ:4xDN1ZYqzskC:
-    citations: 72
+    citations: 73
     title: "Euclid: Early Release Observations \u2013 Dwarf galaxies in the Perseus galaxy cluster"
     year: '2025'
   5TiVEDMAAAAJ:5LPo_wSKItgC:
@@ -250,7 +250,7 @@ papers:
     title: Euclid Quick Data Release (Q1) III. NIR processing and data products
     year: '2026'
   5TiVEDMAAAAJ:ALROH1vI_8AC:
-    citations: 1066
+    citations: 1069
     title: Euclid I. Overview of the Euclid mission
     year: '2025'
   5TiVEDMAAAAJ:AXkvAH5U_nMC:
@@ -778,7 +778,7 @@ papers:
     title: 'VizieR Online Data Catalog: Ultracool dwarfs in Euclid Deep Fields (Zerjal+, 2026)'
     year: '2025'
   5TiVEDMAAAAJ:WZBGuue-350C:
-    citations: 39
+    citations: 38
     title: Validating the Fisher approach for stage IV spectroscopic surveys
     year: '2021'
   5TiVEDMAAAAJ:Wq2b2clWBLsC:
@@ -874,7 +874,7 @@ papers:
     title: Euclid Preparation. TBD. Galaxy colour selections with Euclid and ground photometry for cluster weak-lensing analyses
     year: '2023'
   5TiVEDMAAAAJ:a9-T7VOCCH8C:
-    citations: 126
+    citations: 125
     title: 'Euclid preparation: XXVIII. Forecasts for ten different higher-order weak lensing statistics'
     year: '2023'
   5TiVEDMAAAAJ:aDl3D7KC1E4C:
@@ -1050,7 +1050,7 @@ papers:
     title: 'Euclid: High-precision imaging astrometry and photometry from Early Release Observations: I. Internal kinematics of NGC6397 by combining Euclid and Gaia data'
     year: '2024'
   5TiVEDMAAAAJ:jL-93Qbq4QoC:
-    citations: 119
+    citations: 118
     title: 'Euclid V. The Flagship galaxy mock catalogue: A comprehensive simulation for the Euclid mission'
     year: '2025'
   5TiVEDMAAAAJ:jSAVyFp_754C:
@@ -1114,7 +1114,7 @@ papers:
     title: Euclid preparation. Review of forecast constraints on dark energy and modified gravity
     year: '2025'
   5TiVEDMAAAAJ:lgwcVrK6X84C:
-    citations: 19
+    citations: 21
     title: Euclid IV. The NISP Calibration Unit
     year: '2025'
   5TiVEDMAAAAJ:lmc2jWPfTJgC:
@@ -1202,7 +1202,7 @@ papers:
     title: "Euclid Quick Data Release (Q1) XXVI. The Strong Lensing Discovery Engine A\u2013System overview and first lens sample"
     year: '2026'
   5TiVEDMAAAAJ:otzGkya1bYkC:
-    citations: 139
+    citations: 140
     title: Euclid. III. The NISP Instrument
     year: '2024'
   5TiVEDMAAAAJ:owLR8QvbtFgC:
@@ -1334,7 +1334,7 @@ papers:
     title: 'Euclid: Impact of non-linear and baryonic feedback prescriptions on cosmological parameter estimation from weak lensing cosmic shear'
     year: '2021'
   5TiVEDMAAAAJ:tuHXwOkdijsC:
-    citations: 22
+    citations: 21
     title: 'Euclid: Forecasts for -cut  Point Statistics'
     year: '2020'
   5TiVEDMAAAAJ:txeM2kYbVNMC:
